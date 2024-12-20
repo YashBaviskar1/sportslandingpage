@@ -11,11 +11,26 @@ import frc from '../assets/force_mage-character.webp';
 import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg'
 import nfs from '../assets/nfs2.mp4'
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 
 const Index = () => {
   const [activeSlider, setActiveSlider] = useState(3);
   const page2Ref = useRef(null);
+   const scrollContainerRef = useRef(null);
+
+  useEffect(() => {
+    const scroll = new LocomotiveScroll({
+      el: scrollContainerRef.current,
+      smooth: true,
+    });
+
+    return () => {
+      scroll.destroy();
+    };
+  }, []);
+
 
   useEffect(() => {
     const elems = document.querySelectorAll('.elem');
