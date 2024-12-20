@@ -13,9 +13,9 @@ import { Link } from "react-router-dom";
 
 const images = [
   { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Cricket", subtitle: "Sportsmanship" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Volleyball", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699275/OJUSPHOTOS/qirhfbnkzjxfzaktkqf8.jpg", title: "Volleyball", subtitle: "Design" },
   
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699273/OJUSPHOTOS/aglv8p4vdkmy7zntnbza.jpg", title: "Football", subtitle: "Design" },
   
 ];
 
@@ -75,7 +75,7 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg"></img>
+  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699280/OJUSPHOTOS/plsv5rvxqvjltqtslsvl.png"></img>
 </div>
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
