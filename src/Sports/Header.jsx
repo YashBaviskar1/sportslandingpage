@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
+import logo from "../assets/logo.ico"
+import image1 from "../assets/image1copy.JPG";
+import image3 from "../assets/image3copy.JPG";
 
-
-import image1 from "../assets/image1.JPG";
-import image3 from "../assets/image3.JPG";
-
-import image4 from "../assets/image4.JPG";
-import trophy1 from "../assets/trophy1.png";
+import image4 from "../assets/image4copy.JPG";
+import text from "../assets/textcenter.png";
 import "./Header.css";
 import DropdownMenu from "./Profile";
 
@@ -50,14 +49,14 @@ const HeroSection = () => {
   return (
     <>
       <header>
-        {/* <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} /> */}
+        <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} />
         
         <ul className="menu">
-          <li>Events</li>
-          <li>Gallery</li>
+        <li><Link to="./Events">Events</Link></li>
+          <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/schedule">Schedule</Link></li>
           
-          <li>Login</li>
+          <li><Link to="/login">Login</Link></li>
         </ul>
         
       </header>
@@ -76,9 +75,8 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src={trophy1}></img>
+  <img src={text}></img>
 </div>
-        {/* Arrows */}
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
             {"<"}
