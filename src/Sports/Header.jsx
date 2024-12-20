@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
 import logo from "../assets/logo.ico"
-import image1 from "../assets/image1copy.JPG";
-import image3 from "../assets/image3copy.JPG";
 
-import image4 from "../assets/image4copy.JPG";
-import text from "../assets/textcenter.png";
+
+
+
+
 import "./Header.css";
 import DropdownMenu from "./Profile";
 
 import { Link } from "react-router-dom";
 
 const images = [
-  { src: image1, title: "Cricket", subtitle: "Sportsmanship" },
-  { src: image3, title: "Volleyball", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Cricket", subtitle: "Sportsmanship" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Volleyball", subtitle: "Design" },
   
-  { src: image4, title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Football", subtitle: "Design" },
   
 ];
 
@@ -75,7 +75,7 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src={text}></img>
+  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg"></img>
 </div>
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
