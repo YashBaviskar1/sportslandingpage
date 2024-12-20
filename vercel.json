@@ -1,8 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ],
-  "build": {
-    "command": "npm install && npm run build"
-  }
+  ]
 }
