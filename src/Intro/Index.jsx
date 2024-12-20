@@ -135,7 +135,7 @@ const Index = () => {
       </div>
 
       <div id="page2" data-scroll data-scroll-speed="1" ref={page2Ref}>
-        <div className="elem">
+        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
           <h2>Festivals</h2>
           <div className="moving">
             <div className="blur" />
@@ -149,7 +149,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="">
+        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
           <h2>Sports</h2>
           <div className="moving">
             <div className="blur" />
@@ -163,7 +163,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="">
+        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
           <h2>Cultural</h2>
           <div className="moving">
             <div className="blur" />
