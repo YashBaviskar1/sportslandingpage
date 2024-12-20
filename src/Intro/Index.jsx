@@ -10,6 +10,7 @@ import frcover from '../assets/force_mage-cover.jpg';
 import frc from '../assets/force_mage-character.webp';
 import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg'
+import nfs from '../assets/nfs2.mp4'
 
 
 const Index = () => {
@@ -135,7 +136,7 @@ const Index = () => {
       </div>
 
       <div id="page2" data-scroll data-scroll-speed="1" ref={page2Ref}>
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
+        <div className="elem" data-video={nfs}>
           <h2>Festivals</h2>
           <div className="moving">
             <div className="blur" />
@@ -149,7 +150,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
+        <div className="elem" data-video={nfs}>
           <h2>Sports</h2>
           <div className="moving">
             <div className="blur" />
@@ -163,7 +164,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734702240/OJUSPHOTOS/em4k2mpxlblz9uyecykp.mp4">
+        <div className="elem" data-video={nfs}>
           <h2>Cultural</h2>
           <div className="moving">
             <div className="blur" />
@@ -177,7 +178,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-img="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630">
+        <div className="elem" data-video={nfs}>
           <h2>Ghanekar</h2>
           <div className="moving">
             <div className="blur" />
