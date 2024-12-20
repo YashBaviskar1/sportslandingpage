@@ -76,7 +76,7 @@ const Schedule = () => {
         {['30 Dec', '31 Dec', '2 Jan', '3 Jan', '4 Jan'].map((tab, index) => (
           <div
             key={index}
-            className={`tab ${activeTab === index ? 'active' : ''}`}
+            className={`tab1 ${activeTab === index ? 'active' : ''}`}
             onClick={() => handleTabClick(index)}
           >
             {tab}
