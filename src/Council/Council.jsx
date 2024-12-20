@@ -1,8 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import ScrollReveal from 'scrollreveal';
 import './Council.css'; // assuming heads.css is in your src folder
-import LocomotiveScroll from "locomotive-scroll";
-import "locomotive-scroll/dist/locomotive-scroll.css";
 
 const Council = () => {
     
