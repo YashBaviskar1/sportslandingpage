@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import './index.css'; // Add your styles in this file
 import { Link } from "react-router-dom";
 // LocomotiveScroll and GSAP are external libraries, you can include them in your project as dependencies
-import LocomotiveScroll from 'locomotive-scroll';
-import 'locomotive-scroll/dist/locomotive-scroll.css';
 import OjusLogo from '../assets/logo.ico';
 import drc from '../assets/dark_rider-character.webp';
 import drcover from '../assets/dark_rider-cover.jpg';
@@ -17,18 +15,6 @@ import img from '../assets/img.jpg'
 const Index = () => {
   const [activeSlider, setActiveSlider] = useState(3);
   const page2Ref = useRef(null);
-  const scrollContainerRef = useRef(null);
-
-  useEffect(() => {
-    const scroll = new LocomotiveScroll({
-      el: scrollContainerRef.current,
-      smooth: true,
-    });
-
-    return () => {
-      scroll.destroy();
-    };
-  }, []);
 
   useEffect(() => {
     const elems = document.querySelectorAll('.elem');
@@ -84,7 +70,7 @@ const Index = () => {
   };
 
   return (
-    <div id="main" ref={scrollContainerRef}>
+    <div>
     <div id="nav1">
         <img src={OjusLogo} width="90" height="90" alt="Logo" className="logo" />
         
