@@ -16,15 +16,6 @@ import 'locomotive-scroll/dist/locomotive-scroll.css';
 
 
 const Index = () => {
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import('locomotive-scroll')).default;
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector('.scroll-container'),
-        smooth: true,
-      });
-    })();
-  }, []);
   const [activeSlider, setActiveSlider] = useState(3);
   const page2Ref = useRef(null);
    const scrollContainerRef = useRef(null);
