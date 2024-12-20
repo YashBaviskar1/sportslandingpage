@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
 import './Heads.css'; // assuming heads.css is in your src folder
 
 const Heads = () => {
@@ -8,15 +7,6 @@ const Heads = () => {
     window.scrollTo(0, 0);
   };
 
-  useEffect(() => {
-    // ScrollReveal animations
-    ScrollReveal({
-      distance: '60px',
-      duration: 2500,
-      delay: 400
-    });
-    ScrollReveal().reveal('h2', { delay: 100, origin: 'top' });
-    ScrollReveal().reveal('#team', { delay: 500, origin: 'bottom' });
 
     // IntersectionObserver to highlight the nav items based on section visibility
     const sections = document.querySelectorAll('section');
