@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Events.css';
-import sport1 from "../assets/sport1.png";
-import sport2 from "../assets/sport2.png";
-import sport3 from "../assets/sport3.png";
+import sport1 from "../assets/FOOTBALL.png";
+import sport2 from "../assets/FOOTBALL.png";
+import sport3 from "../assets/FOOTBALL.png";
 
 
 const Events = () => {
@@ -23,6 +23,7 @@ const Events = () => {
       sport1,
       sport2,
       sport3,
+      sport1,
     ],
     day4: [
      sport1,
