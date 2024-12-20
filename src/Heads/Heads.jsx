@@ -7,6 +7,7 @@ const Heads = () => {
     window.scrollTo(0, 0);
   };
 
+  useEffect(() => {
 
     // IntersectionObserver to highlight the nav items based on section visibility
     const sections = document.querySelectorAll('section');
