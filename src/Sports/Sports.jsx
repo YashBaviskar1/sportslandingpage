@@ -1,25 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Header from "./Header";
 import LogoFlexbox from './Department.jsx';
 import Events from './Events.jsx';
 import Gallery from './Gallery.jsx';
-
-
+import LocomotiveScroll from "locomotive-scroll";
+import "locomotive-scroll/dist/locomotive-scroll.css";
 import Footer from './Footer.jsx';
 import "./Sports.css";
 
 const Sports = () => {
 
-  
-
-
-
-    
-
-    
-
   return (
+    <>
+    <div>
     <div className="sports">
       <Header />
       <div className='Department'>
@@ -34,8 +28,9 @@ const Sports = () => {
         <h1 className='headingCenter'>Gallery</h1>
         <Gallery/>
       </div> 
-      <Footer />
     </div>
+    </div>
+    </>
   )
 }
 
