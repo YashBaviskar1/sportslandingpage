@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.JPG', '**/*.JPEG'],
+  resolve: {
+    alias: {
+      // Alias for ScrollReveal, if needed
+      scrollreveal: 'scrollreveal/dist/scrollreveal.es.js',
+    },
+  },
 })
