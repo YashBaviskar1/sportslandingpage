@@ -6,13 +6,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;  /* Allows images to wrap to the next line */
-    background-color: gray;
+    flex-wrap: wrap;
+    /*Allowsimagestowraptothenextline*/background-color: gray;
     padding: 20px;
     border-radius: 2px solid grey;
-    border-radius: 10px;  /* Optional for rounded corners */
-    gap: 20px;  /* Optional gap between the logos */
-  }
+    border-radius: 10px;
+    /*Optionalforroundedcorners*/gap: 20px;
+      /* Optional gap between the logos */  
+}
   
   /* Image styling */
   .logo {
@@ -21,3 +22,15 @@
     flex-shrink: 0;  /* Prevent images from shrinking */
   }
   
+
+@media screen and (max-width: 768px) {
+  .department{
+    width: 100% !important;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content !important;
+    gap: 40px;
+  }
+  
+}
