@@ -16,6 +16,7 @@ export default defineConfig({
   },
    optimizeDeps: {
       include: ['locomotive-scroll'],
+      include: ['mdb-react-ui-kit'],
   },
   plugins: [react()],
   assetsInclude: ['**/*.JPG', '**/*.JPEG'],
