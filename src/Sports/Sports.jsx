@@ -4,6 +4,7 @@ import Header from "./Header";
 import LogoFlexbox from './Department.jsx';
 import Events from './Events.jsx';
 import Footer from './Footer.jsx';
+import Gallery from './Gallery.jsx';
 import "./Sports.css";
 
 const Sports = () => {
@@ -23,7 +24,7 @@ const Sports = () => {
       </div>
       <div className='Gallery'>
         <h1 className='headingCenter'>Gallery</h1>
-{/*         <Gallery/> */}
+        <Gallery/>
       </div> 
     </div>
     </div>
