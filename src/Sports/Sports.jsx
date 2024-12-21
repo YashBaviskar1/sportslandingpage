@@ -27,6 +27,7 @@ const Sports = () => {
         <Gallery/>
       </div> 
     </div>
+      <Footer/>
     </div>
     </>
   )
