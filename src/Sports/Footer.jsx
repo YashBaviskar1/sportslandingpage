@@ -38,7 +38,7 @@ export default function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2025 Copyright:
-        <a style={{ margin:'0px 20px', textDecoration: 'none' }} className='text-white' href='https://mdbootstrap.com/'>
+        <a style={{ margin:'0px 20px'}} className='text-white' href='https://mdbootstrap.com/'>
           Ojus Dev Team 2k25
         </a>
       </div>
