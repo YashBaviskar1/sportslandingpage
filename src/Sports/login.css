@@ -37,10 +37,6 @@
     border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
     animation: animate2 10s linear infinite;
   }
-  .ring i:nth-child(4) {
-    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
-    animation: animate2 10s linear infinite;
-  }
   
   .ring:hover i {
     border: 6px solid var(--clr);
