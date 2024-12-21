@@ -1,46 +1,54 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import ResponsiveGallery from 'react-responsive-gallery';
+import React from 'react';
+import {
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+} from 'mdb-react-ui-kit';
 
-// const media = [
-//   {
-//     src: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699275/OJUSPHOTOS/rby01igc0oksukw45o0w.jpg',
-//   },
-//   {
-//     src: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699294/OJUSPHOTOS/krxbvxrvomputibc8xhg.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2016/12/04/21/58/rabbit-1882699_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2014/07/08/12/36/bird-386725_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2015/10/12/15/46/fallow-deer-984573_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2014/10/01/10/44/hedgehog-468228_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2013/09/22/15/29/prairie-dog-184974_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2018/03/31/06/31/dog-3277416_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg',
-//   },
-//   {
-//     src: 'https://cdn.pixabay.com/photo/2019/03/09/17/30/horse-4044547_960_720.jpg',
-//   },
-// ];
+export default function Gallery() {
+  return (
+    <MDBRow>
+      <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Boat on Calm Water'
+        />
 
-// const GalleryComponent = () => {
-//   return (
-//     <div>
-//       <ResponsiveGallery media={media} />
-//     </div>
-//   );
-// };
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Wintry Mountain Landscape'
+        />
+      </MDBCol>
 
-// export default GalleryComponent;
+      <MDBCol lg={4} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Mountains in the Clouds'
+        />
+
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Boat on Calm Water'
+        />
+      </MDBCol>
+
+      <MDBCol lg={4} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Waves at Sea'
+        />
+
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Yosemite National Park'
+        />
+      </MDBCol>
+    </MDBRow>
+  );
+}
