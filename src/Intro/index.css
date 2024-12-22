@@ -71,8 +71,8 @@ body{
   height: 500px;/* Container height */
   padding: 470px;
   padding-block: 170px;
+  margin-bottom: 210px !important;
   margin-top: 210px !important;
-  
 }
 
 .container .top, 
@@ -960,4 +960,83 @@ video {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+}
+/* General Styles */
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Nav Buttons for Larger Screens */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-buttons .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger Icon for Mobile */
+.hamburger {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  position: relative;
+  z-index: 1100; /* Ensure it's above the menu */
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger Animation */
+.hamburger.open .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Sliding Menu for Mobile */
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Initially hidden off-screen */
+  width: 100%;
+  height: 100%;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: right 0.5s ease;
+  z-index: 1000;
+}
+
+.menu.open {
+  right: 0; /* Slide in to cover the screen */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-buttons {
+    display: none; /* Hide buttons on mobile */
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger on mobile */
+  }
 }
