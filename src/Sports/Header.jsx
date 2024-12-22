@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
 import logo from "../assets/logo.ico"
+import image1 from "../assets/image1copy.JPG";
+import image3 from "../assets/image3copy.JPG";
 
-
-
-
-
+import image4 from "../assets/image4copy.JPG";
+import text from "../assets/textcenter.png";
 import "./Header.css";
 import DropdownMenu from "./Profile";
 
 import { Link } from "react-router-dom";
 
 const images = [
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Cricket", subtitle: "Sportsmanship" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699275/OJUSPHOTOS/qirhfbnkzjxfzaktkqf8.jpg", title: "Volleyball", subtitle: "Design" },
+  { src: image1, title: "Cricket", subtitle: "Sportsmanship" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Volleyball", subtitle: "Design" },
   
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699273/OJUSPHOTOS/aglv8p4vdkmy7zntnbza.jpg", title: "Football", subtitle: "Design" },
+  { src: image4, title: "Football", subtitle: "Design" },
   
 ];
 
@@ -46,19 +46,47 @@ const HeroSection = () => {
   };
 
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Prevent body scrolling when menu is open
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [menuOpen]);
+
   return (
     <>
       <header>
         <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} />
         
-        <ul className="menu">
-        <li><Link to="./Events">Events</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/schedule">Schedule</Link></li>
-          
-          <li><Link to="/login">Login</Link></li>
-        </ul>
-        
+       
+        <div
+        className={`hamburger1 ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+
+      {/* Full-Screen Sliding Menu */}
+      <ul className={`menu1 ${menuOpen ? "open" : ""}`}>
+        <li>
+          <Link to="/events">Events</Link>
+        </li>
+        <li>
+          <Link to="/gallery">Gallery</Link>
+        </li>
+        <li>
+          <Link to="/schedule">Schedule</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+      </ul>
       </header>
 
       {/* Slider Section */}
@@ -75,7 +103,7 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699280/OJUSPHOTOS/plsv5rvxqvjltqtslsvl.png"></img>
+  <img src={text}></img>
 </div>
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
