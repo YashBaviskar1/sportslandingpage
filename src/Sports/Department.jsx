@@ -18,11 +18,11 @@ const LogoFlexbox = () => {
       borderRadius:"45px",
       margin:"auto",
     }}>
-      <img data-aos="fade-up" src={aimlsa} alt="Logo 1" style={{ width: '130px', height: 'auto' }} />
-      <img data-aos="fade-up" src={csa} alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
-      <img data-aos="fade-up" src={dsa} alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
-      <img data-aos="fade-up" src={itsa} alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
-      <img data-aos="fade-up" src={MECH} alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
+      <img src={aimlsa} alt="Logo 1" style={{ width: '130px', height: 'auto' }} />
+      <img src={csa} alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
+      <img src={dsa} alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
+      <img src={itsa} alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
+      <img src={MECH} alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
     </div>
   );
 };
