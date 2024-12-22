@@ -50,7 +50,7 @@ const Events = () => {
           </button>
         ))}
       </div>
-      <div className="image-container" data-aos="fade-up">
+      <div className="image-container">
         {eventImages[selectedDay].map((img, index) => (
           <img key={index} src={img} alt={`Event for ${selectedDay}`} />
         ))}
@@ -60,4 +60,3 @@ const Events = () => {
 };
 
 export default Events;
-
