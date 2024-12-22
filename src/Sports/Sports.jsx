@@ -4,8 +4,6 @@ import Header from "./Header";
 import LogoFlexbox from './Department.jsx';
 import Events from './Events.jsx';
 import Gallery from './Gallery.jsx';
-import LocomotiveScroll from "locomotive-scroll";
-import "locomotive-scroll/dist/locomotive-scroll.css";
 import Footer from './Footer.jsx';
 import "./Sports.css";
 
