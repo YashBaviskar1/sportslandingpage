@@ -9,10 +9,18 @@ import frcover from '../assets/force_mage-cover.jpg';
 import frc from '../assets/force_mage-character.webp';
 import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg';
+import video from '../assets/nfs2.mp4';
+import {
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+} from 'mdb-react-ui-kit';
+
 
 const Index = () => {
   const [activeSlider, setActiveSlider] = useState(3);
   const page2Ref = useRef(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const elems = document.querySelectorAll('.elem');
@@ -64,16 +72,50 @@ const Index = () => {
   return (
     <div id="main">
       <div id="nav1">
-        <img src={OjusLogo} width="90" height="90" alt="" />
+      <img src={OjusLogo} width="90" height="90" alt="Ojus Logo" />
+
+      {/* Buttons for Larger Screens */}
+      <div className="nav-buttons">
         <button className="button">
           <div className="dots_border" />
-          <Link to="/council"><span className="text_button">Cultural</span></Link>
+          <Link to="/council">
+            <span className="text_button">Cultural</span>
+          </Link>
         </button>
         <button className="button">
           <div className="dots_border" />
-          <Link to="/heads"><span className="text_button">Heads</span></Link>
+          <Link to="/heads">
+            <span className="text_button">Heads</span>
+          </Link>
         </button>
       </div>
+
+      {/* Hamburger Icon for Mobile */}
+      <div
+        className={`hamburger ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+
+      {/* Full-Screen Sliding Menu for Mobile */}
+      <div className={`menu ${menuOpen ? "open" : ""}`}>
+        <button className="button">
+          <div className="dots_border" />
+          <Link to="/council">
+            <span className="text_button">Cultural</span>
+          </Link>
+        </button>
+        <button className="button">
+          <div className="dots_border" />
+          <Link to="/heads">
+            <span className="text_button">Heads</span>
+          </Link>
+        </button>
+      </div>
+    </div>
 
       <div id="page1">
         <div className="container">
@@ -114,7 +156,7 @@ const Index = () => {
       </div>
 
       <div id="page2" ref={page2Ref}>
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734714831/OJUSPHOTOS/ce0uhyewax4zkdq19inm.mp4">
+        <div className="elem">
           <h2>Festivals</h2>
           <div className="moving">
             <div className="blur" />
@@ -124,7 +166,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734714831/OJUSPHOTOS/ce0uhyewax4zkdq19inm.mp4">
+        <div className="elem" data-video={video}>
           <h2>Sports</h2>
           <div className="moving">
             <div className="blur" />
@@ -134,7 +176,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734714831/OJUSPHOTOS/ce0uhyewax4zkdq19inm.mp4">
+        <div className="elem" data-video={video}>
           <h2>Cultural</h2>
           <div className="moving">
             <div className="blur" />
@@ -144,7 +186,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734714831/OJUSPHOTOS/ce0uhyewax4zkdq19inm.mp4">
+        <div className="elem" data-video="./val.mp4">
           <h2>Ghanekar</h2>
           <div className="moving">
             <div className="blur" />
@@ -156,24 +198,48 @@ const Index = () => {
       </div>
 
       <div id="page3">
-        <section className="slider-container">
-          <div className="slider-images">
-            {sliderData.map((data, index) => (
-              <div
-                key={index}
-                className={`slider-img ${activeSlider === index ? 'active' : ''}`}
-                onClick={() => handleSliderClick(index)}
-              >
-                <img src={img} alt={`Slider Image ${index + 1}`} />
-                <h1 className="h1">{data.name}</h1>
-                <div className="details">
-                  <h2>{data.name}</h2>
-                  <p>{data.title}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+      <MDBRow style={{ padding:'80px'}}>
+      <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Boat on Calm Water'
+        />
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Wintry Mountain Landscape'
+        />
+      </MDBCol>
+
+      <MDBCol lg={4} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Mountains in the Clouds'
+        />
+
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Boat on Calm Water'
+        />
+      </MDBCol>
+
+      <MDBCol lg={4} className='mb-4 mb-lg-0'>
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Waves at Sea'
+        />
+
+        <img
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp'
+          className='w-100 shadow-1-strong rounded mb-4'
+          alt='Yosemite National Park'
+        />
+      </MDBCol>
+    </MDBRow>
       </div>
 
       <footer className="footer">
