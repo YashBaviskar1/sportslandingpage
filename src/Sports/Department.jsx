@@ -3,6 +3,7 @@ import aimlsa from "../assets/aimlsa.png";
 import csa from "../assets/csa.png";
 import dsa from "../assets/dsa.png";
 import itsa from "../assets/itsa.png";
+import MECH from "../assets/MESA logo.png";
 import './Department.css';
 const LogoFlexbox = () => {
   return (
@@ -17,11 +18,11 @@ const LogoFlexbox = () => {
       borderRadius:"45px",
       margin:"auto",
     }}>
-      <img src={aimlsa} alt="Logo 1" style={{ width: '130px', height: 'auto' }} />
-      <img src={csa} alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
-      <img src={dsa} alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
-      <img src={itsa} alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
-      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699277/OJUSPHOTOS/gvuiwwildkcuc36sdtnz.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
+      <img data-aos="fade-up" src={aimlsa} alt="Logo 1" style={{ width: '130px', height: 'auto' }} />
+      <img data-aos="fade-up" src={csa} alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
+      <img data-aos="fade-up" src={dsa} alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
+      <img data-aos="fade-up" src={itsa} alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
+      <img data-aos="fade-up" src={MECH} alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
     </div>
   );
 };
