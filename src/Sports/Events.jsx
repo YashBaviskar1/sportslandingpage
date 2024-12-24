@@ -3,7 +3,15 @@ import './Events.css';
 import sport1 from "../assets/BADMINTON.png";
 import sport2 from "../assets/FOOTBALL.png";
 import sport3 from "../assets/VOLLEYBALL.png";
-import sport4 from "../assets/THROWBALL.png";
+import sport4 from "../assets/CRICKET.png";
+import sport5 from "../assets/BOXCRICKET.png";
+import sport6 from "../assets/CARROM2.png";
+import sport7 from "../assets/CARROM.png";
+import sport8 from "../assets/TABLETENNIS.png";
+import sport9 from "../assets/TABLETENNIS2.png";
+import sport10 from "../assets/CHESS.png";
+import sport11 from "../assets/BADMINTON2.png";
+import sport12 from "../assets/THROWBALL.png";
 
 
 const Events = () => {
@@ -11,27 +19,27 @@ const Events = () => {
 
   const eventImages = {
     day1: [
-      sport1,
+      sport4,
       sport2,
     ],
     day2: [
-   sport1,
    sport2,
+   sport12,
    sport3,
+   sport1,
     ],
     day3: [
       sport1,
-      sport2,
-      sport3,
-      sport4,
+      sport5,
     ],
     day4: [
-     sport1,
-     sport2,
+     sport11,
+     sport9,
+     sport10
     ],
     day5: [
-   sport1,
-   sport2,
+   sport6,
+   sport5,
    sport3,
     ],
   };
