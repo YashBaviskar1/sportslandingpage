@@ -189,12 +189,12 @@ const Index = () => {
       <MDBRow style={{ padding:'80px'}}>
       <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046560/OJUSPHOTOS/og0pjwvdvxyexv1i7d6s.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Boat on Calm Water'
         />
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046558/OJUSPHOTOS/xlnaenmf6qjww2kbekz8.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Wintry Mountain Landscape'
         />
@@ -202,13 +202,13 @@ const Index = () => {
 
       <MDBCol lg={4} className='mb-4 mb-lg-0'>
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046553/OJUSPHOTOS/mi3xvd1i9frvbna10rsk.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Mountains in the Clouds'
         />
 
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043375/OJUSPHOTOS/wp6ctwtgewbvwa3ntozw.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Boat on Calm Water'
         />
@@ -216,13 +216,13 @@ const Index = () => {
 
       <MDBCol lg={4} className='mb-4 mb-lg-0'>
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046549/OJUSPHOTOS/djwmsxqi2syeykafoq8o.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Waves at Sea'
         />
 
         <img
-          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046740/OJUSPHOTOS/o23zbmisbgyq92puzmj1.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Yosemite National Park'
         />
