@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Events.css';
-import sport1 from "../assets/FOOTBALL.png";
+import sport1 from "../assets/BADMINTON.png";
 import sport2 from "../assets/FOOTBALL.png";
 import sport3 from "../assets/FOOTBALL.png";
 
