@@ -22,6 +22,7 @@ const LogoFlexbox = () => {
       <img src={dsa} alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
       <img src={itsa} alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699277/OJUSPHOTOS/gvuiwwildkcuc36sdtnz.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
+      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038785/cu8hlpt8rqt5o4iviahc.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
     </div>
   );
 };
