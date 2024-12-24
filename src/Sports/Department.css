@@ -26,11 +26,14 @@
 @media screen and (max-width: 768px) {
   .department{
     width: 100% !important;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     height: fit-content !important;
     gap: 40px;
   }
   
+}
+
+@media screen and (max-width: 678px) {
+  .headingCenter {
+      font-size: 1.5em;
+  }
 }
