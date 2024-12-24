@@ -2,12 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import './index.css'; // Add your styles in this file
 import { Link } from "react-router-dom";
 import OjusLogo from '../assets/logo.ico';
-// import drc from '../assets/dark_rider-character.webp';
-// import drcover from '../assets/dark_rider-cover.jpg';
-// import drtitle from '../assets/dark_rider-title.png';
-// import frcover from '../assets/force_mage-cover.jpg';
-// import frc from '../assets/force_mage-character.webp';
-// import frtitle from '../assets/force_mage-title.png';
+import drc from '../assets/dark_rider-character.webp';
+import drcover from '../assets/dark_rider-cover.jpg';
+import drtitle from '../assets/dark_rider-title.png';
+import frcover from '../assets/force_mage-cover.jpg';
+import frc from '../assets/force_mage-character.webp';
+import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg';
 import video from '../assets/nfs2.mp4';
 import {
