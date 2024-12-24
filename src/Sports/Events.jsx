@@ -3,7 +3,6 @@ import './Events.css';
 import sport1 from "../assets/BADMINTON.png";
 import sport2 from "../assets/FOOTBALL.png";
 import sport3 from "../assets/VOLLEYBALL.png";
-import sport4 from "../assets/CRICKET.png";
 import sport5 from "../assets/BOXCRICKET.png";
 import sport6 from "../assets/CARROM2.png";
 import sport7 from "../assets/CARROM.png";
@@ -19,7 +18,7 @@ const Events = () => {
 
   const eventImages = {
     day1: [
-      sport4,
+      sport5,
       sport2,
     ],
     day2: [
