@@ -8,7 +8,7 @@ import sport6 from "../assets/CARROM2.png";
 import sport7 from "../assets/CARROM.png";
 import sport8 from "../assets/TABLETENNIS.png";
 import sport9 from "../assets/TABLETENNIS2.png";
-import sport10 from "../assets/CHESS.png";
+
 import sport11 from "../assets/BADMINTON2.png";
 import sport12 from "../assets/THROWBALL.png";
 
@@ -34,7 +34,7 @@ const Events = () => {
     day4: [
      sport11,
      sport9,
-     sport10
+     sport1,
     ],
     day5: [
    sport6,
