@@ -3,6 +3,7 @@ import './Events.css';
 import sport1 from "../assets/BADMINTON.png";
 import sport2 from "../assets/FOOTBALL.png";
 import sport3 from "../assets/VOLLEYBALL.png";
+import sport4 from "../assets/THROWBALL.png";
 
 
 const Events = () => {
@@ -12,7 +13,6 @@ const Events = () => {
     day1: [
       sport1,
       sport2,
-      sport3,
     ],
     day2: [
    sport1,
@@ -23,12 +23,11 @@ const Events = () => {
       sport1,
       sport2,
       sport3,
-      sport1,
+      sport4,
     ],
     day4: [
      sport1,
      sport2,
-     sport3,
     ],
     day5: [
    sport1,
