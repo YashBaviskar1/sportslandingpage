@@ -2,12 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import './index.css'; // Add your styles in this file
 import { Link } from "react-router-dom";
 import OjusLogo from '../assets/logo.ico';
-import drc from '../assets/dark_rider-character.webp';
-import drcover from '../assets/dark_rider-cover.jpg';
-import drtitle from '../assets/dark_rider-title.png';
-import frcover from '../assets/force_mage-cover.jpg';
-import frc from '../assets/force_mage-character.webp';
-import frtitle from '../assets/force_mage-title.png';
+// import drc from '../assets/dark_rider-character.webp';
+// import drcover from '../assets/dark_rider-cover.jpg';
+// import drtitle from '../assets/dark_rider-title.png';
+// import frcover from '../assets/force_mage-cover.jpg';
+// import frc from '../assets/force_mage-character.webp';
+// import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg';
 import video from '../assets/nfs2.mp4';
 import {
@@ -119,39 +119,27 @@ const Index = () => {
 
       <div id="page1">
         <div className="container">
-          <div className="left">
+{/*           <div className="left">
             <p>OJUS - 2k25</p>
           </div>
           <div className="bottom">
             <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
-          </div>
+          </div> */}
           <div className="image">
-            <a href="/cultural">
-              <div className="card">
-                <div className="wrapper">
-                  <img src={drcover} className="cover-image" alt="Dark Rider Cover" />
-                </div>
-                <img src={drtitle} className="title" alt="Dark Rider Title" />
-                <img src={drc} className="character" alt="Dark Rider Character" />
-              </div>
-            </a>
-
             <a href="/sports">
               <div className="card">
                 <div className="wrapper">
-                  <img src={frcover} className="cover-image" alt="Force Mage Cover" />
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038815/ehfckugkipz3tf8lrqmt.png" className="cover-image" alt="Dark Rider Cover" />
                 </div>
-                <img src={frtitle} className="title" alt="Force Mage Title" />
-                <img src={frc} className="character" alt="Force Mage Character" />
               </div>
             </a>
           </div>
-          <div className="right">
+{/*           <div className="right">
             <p>OJUS - 2k25</p>
           </div>
           <div className="top">
             <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
-          </div>
+          </div> */}
         </div>
       </div>
 
