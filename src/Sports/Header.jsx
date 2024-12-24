@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const images = [
   { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Cricket", subtitle: "Sportsmanship" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Volleyball", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699275/OJUSPHOTOS/qirhfbnkzjxfzaktkqf8.jpg", title: "Volleyball", subtitle: "Design" },
   
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699271/OJUSPHOTOS/upw4qeu1z02da72p41gn.jpg", title: "Football", subtitle: "Design" },
   
 ];
 
