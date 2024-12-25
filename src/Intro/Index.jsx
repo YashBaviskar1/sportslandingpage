@@ -129,7 +129,7 @@ const Index = () => {
             <a href="/sports">
               <div className="card">
                 <div className="wrapper">
-                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735138975/eccwwtgxg6jyr6btfibf.png" className="cover-image" alt="Dark Rider Cover" />
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038815/ehfckugkipz3tf8lrqmt.png" className="cover-image" alt="Dark Rider Cover" />
                 </div>
               </div>
             </a>
