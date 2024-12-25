@@ -104,7 +104,7 @@ const Index = () => {
         <button className="button">
           <div className="dots_border" />
           <Link to="/council">
-            <span className="text_button">Cultural</span>
+            <span className="text_button">Council</span>
           </Link>
         </button>
         <button className="button">
