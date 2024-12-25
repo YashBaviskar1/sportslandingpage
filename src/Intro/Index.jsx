@@ -3,7 +3,6 @@ import './index.css'; // Add your styles in this file
 import { Link } from "react-router-dom";
 import OjusLogo from '../assets/logo.ico';
 import drc from '../assets/dark_rider-character.webp';
-import drcover from '../assets/sportsojus.png';
 import drtitle from '../assets/dark_rider-title.png';
 import frcover from '../assets/force_mage-cover.jpg';
 import frc from '../assets/force_mage-character.webp';
