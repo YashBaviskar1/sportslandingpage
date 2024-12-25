@@ -71,7 +71,7 @@ const Index = () => {
   return (
     <div id="main">
       <div id="nav1">
-      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735138975/eccwwtgxg6jyr6btfibf.png" width="90" height="90" alt="Ojus Logo" />
+      <img src={OjusLogo} width="90" height="90" alt="Ojus Logo" />
 
       {/* Buttons for Larger Screens */}
       <div className="nav-buttons">
@@ -129,7 +129,7 @@ const Index = () => {
             <a href="/sports">
               <div className="card">
                 <div className="wrapper">
-                  <img src={drcover} className="cover-image" alt="Dark Rider Cover" />
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735138975/eccwwtgxg6jyr6btfibf.png" className="cover-image" alt="Dark Rider Cover" />
                 </div>
               </div>
             </a>
