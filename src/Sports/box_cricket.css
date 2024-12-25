@@ -415,3 +415,39 @@ p,strong{
   }
 }
 
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: rgba(40, 40, 40, 0); /* Transparent background */
+  z-index: 1000;
+}
+
+.navbar-button {
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-button:hover {
+  text-decoration: underline; 
+}
+
+.navbar-title {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
