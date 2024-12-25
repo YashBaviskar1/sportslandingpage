@@ -542,6 +542,36 @@ div .image{
 }
 
 
+.card:hover .wrapper::before,
+.wrapper::after{
+  opacity: 1;
+}
+.card:hover .wrapper::after{
+  height: 120px;
+}
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
+.character {
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+}
+.card:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+
+
+
+
 .slider-container{
   background: black;
   width: 100%;
