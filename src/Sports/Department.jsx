@@ -3,13 +3,12 @@ import './Department.css';
 const LogoFlexbox = () => {
   return (
     <div className="department" style={{ 
-      display: 'flex', 
+     display: 'flex', 
       justifyContent: 'space-around',
       width:"100%",
       height:"300px",
       flexWrap:"wrap",
       alignItems: 'center', 
-      backgroundColor: 'black', 
       borderRadius:"45px",
       margin:"auto",
     }}>
