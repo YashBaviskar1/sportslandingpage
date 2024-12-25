@@ -84,7 +84,7 @@ function UnifiedContainer() {
       React.createElement(
         'div',
         { className: 'left-section' },
-        React.createElement('img', { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114917/OJUSPHOTOS/hrvryqkmdc3qax3x2u5w.jpg", alt: 'Logo', className: 'logo' }),
+        React.createElement('img', { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699264/OJUSPHOTOS/rbhv5gcw8xyi2r5bmmmj.png", alt: 'Logo', className: 'logo' }),
         React.createElement('button', { className: 'register-btn' }, 'Register')
       ),
       React.createElement(
