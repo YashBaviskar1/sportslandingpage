@@ -186,48 +186,51 @@ const Index = () => {
       </div>
 
       <div id="page3">
-      <MDBRow style={{ padding:'80px'}}>
-      <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046560/OJUSPHOTOS/og0pjwvdvxyexv1i7d6s.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Boat on Calm Water'
-        />
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046558/OJUSPHOTOS/xlnaenmf6qjww2kbekz8.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Wintry Mountain Landscape'
-        />
-      </MDBCol>
+     <MDBContainer fluid style={{ padding: '80px' }}>
+      <MDBRow>
+        {/* Column 1 */}
+        <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046560/OJUSPHOTOS/og0pjwvdvxyexv1i7d6s.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          />
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046558/OJUSPHOTOS/xlnaenmf6qjww2kbekz8.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+        </MDBCol>
 
-      <MDBCol lg={4} className='mb-4 mb-lg-0'>
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046553/OJUSPHOTOS/mi3xvd1i9frvbna10rsk.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Mountains in the Clouds'
-        />
+        {/* Column 2 */}
+        <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046553/OJUSPHOTOS/mi3xvd1i9frvbna10rsk.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+          />
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043375/OJUSPHOTOS/wp6ctwtgewbvwa3ntozw.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          />
+        </MDBCol>
 
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043375/OJUSPHOTOS/wp6ctwtgewbvwa3ntozw.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Boat on Calm Water'
-        />
-      </MDBCol>
-
-      <MDBCol lg={4} className='mb-4 mb-lg-0'>
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046549/OJUSPHOTOS/djwmsxqi2syeykafoq8o.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Waves at Sea'
-        />
-
-        <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046740/OJUSPHOTOS/o23zbmisbgyq92puzmj1.jpg'
-          className='w-100 shadow-1-strong rounded mb-4'
-          alt='Yosemite National Park'
-        />
-      </MDBCol>
-    </MDBRow>
+        {/* Column 3 */}
+        <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046549/OJUSPHOTOS/djwmsxqi2syeykafoq8o.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Waves at Sea"
+          />
+          <img
+            src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046740/OJUSPHOTOS/o23zbmisbgyq92puzmj1.jpg"
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Yosemite National Park"
+          />
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
       </div>
 
       <footer className="footer">
