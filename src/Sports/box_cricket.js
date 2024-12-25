@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './box_cricket.css';
+import Logo from "../assets/BOXCRICKET.png"; // Assuming you have the logo image
 import { Link } from 'react-router-dom'; // Import Link to create navigation links
 
 function UnifiedContainer() {
@@ -26,7 +27,7 @@ function UnifiedContainer() {
     },
   };
 
-  const renderContent = () => {
+  const RenderContent = () => {
     const selectedData = content[selectedContent];
     const contentElements = [];
 
@@ -84,7 +85,7 @@ function UnifiedContainer() {
       React.createElement(
         'div',
         { className: 'left-section' },
-        React.createElement('img', { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699264/OJUSPHOTOS/rbhv5gcw8xyi2r5bmmmj.png", alt: 'Logo', className: 'logo' }),
+        React.createElement('img', { src: Logo, alt: 'Logo', className: 'logo' }),
         React.createElement('button', { className: 'register-btn' }, 'Register')
       ),
       React.createElement(
@@ -94,17 +95,17 @@ function UnifiedContainer() {
           'div',
           { className: 'navigation' },
           React.createElement(Link, {
-            to: '/',
+            to: '/box-cricket/details',
             onClick: () => handleLinkClick('details'),
             className: activeLink === 'details' ? 'active' : ''
           }, 'Details'),
           React.createElement(Link, {
-            to: '/rules',
+            to: '/box-cricket/rules',
             onClick: () => handleLinkClick('rules'),
             className: activeLink === 'rules' ? 'active' : ''
           }, 'Rules'),
           React.createElement(Link, {
-            to: '/contact-us',
+            to: '/box-cricket/contact-us',
             onClick: () => handleLinkClick('contact'),
             className: activeLink === 'contact' ? 'active' : ''
           }, 'Contact Us')
@@ -115,7 +116,7 @@ function UnifiedContainer() {
           React.createElement(
             'div',
             { className: 'content-details' },
-            renderContent()
+            RenderContent()
           )
         )
       )
