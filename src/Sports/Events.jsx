@@ -26,59 +26,59 @@ const Events = () => {
             </Link>
             
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114391/OJUSPHOTOS/txhagfnx2aopmb6xmeod.png" alt="Tug of War" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146447/Sports%20Cards/p2y8ossamjl8j3qnzbsr.png" alt="Tug of War" />
             </Link>
           </div>
         )}
         {selectedDay === 'day2' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114393/OJUSPHOTOS/r00itn3tjc2xqe94egmd.png" alt="Football" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/ovq0bges1np1dnca897p.png" alt="Football(Boys)" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699286/OJUSPHOTOS/klwengfb45tuk7enfz85.png" alt="Dodgeball" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146453/Sports%20Cards/ytdxxgtwlkwefw8sxcto.png" alt="Dodgeball(Girls)" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699286/OJUSPHOTOS/klwengfb45tuk7enfz85.png" alt="Volleyball" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146447/Sports%20Cards/nvoqitpvxgv7ix9zsrgp.png" alt="Volleyball(Boys)" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114391/OJUSPHOTOS/txhagfnx2aopmb6xmeod.png" alt="Tug of War(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146451/Sports%20Cards/l5z7ffh94kp6ag9estzq.png" alt="Tug of War(Girls)" />
             </Link>
           </div>
         )}
         {selectedDay === 'day3' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png" alt="Kabbadi" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146456/Sports%20Cards/t1rh4f3nvfo4fbrcuotf.png" alt="Kabbadi" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699264/OJUSPHOTOS/rbhv5gcw8xyi2r5bmmmj.png" alt="Box-Cricket(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146427/Sports%20Cards/o1kme3ejcdfedhnkyjfx.png" alt="Box-Cricket(Girls)" />
             </Link>
           </div>
         )}
         {selectedDay === 'day4' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png" alt="Badminton" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146411/Sports%20Cards/n56tjenpoane6i52u2vk.png" alt="Badminton" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114043/OJUSPHOTOS/gp0dmtn5dsddcllhedm9.png" alt="Table Tennis" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/ha7skdj9mrrfh1gujwei.png" alt="Table Tennis" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114067/OJUSPHOTOS/ezhcy7gjx1kurg34lwj5.png" alt="Chess" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146427/Sports%20Cards/drwfi7s3dmhjwyypgz3w.png" alt="Chess" />
             </Link>
           </div>
         )}
         {selectedDay === 'day5' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114166/OJUSPHOTOS/a8sjee5xjohr0cetmdgq.png" alt="Carrom" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/duztbixbj8tgdmnhxfw8.png" alt="Carrom" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699264/OJUSPHOTOS/rbhv5gcw8xyi2r5bmmmj.png" alt="Box Cricket (boys)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/lldkmjsutrbia6yrq7pn.png" alt="Box Cricket (boys)" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114536/OJUSPHOTOS/qbgrh0cgoutdh7c3eokp.png" alt="Throwball (girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146437/Sports%20Cards/jcxlnfqmtiq1tocx0pxz.png" alt="Throwball (girls)" />
             </Link>
           </div>
         )}
