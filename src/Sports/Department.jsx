@@ -19,7 +19,7 @@ const LogoFlexbox = () => {
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699276/OJUSPHOTOS/vbd00sgou0ychslyokto.png" alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699277/OJUSPHOTOS/gvuiwwildkcuc36sdtnz.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038785/cu8hlpt8rqt5o4iviahc.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
-      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735110819/OJUSPHOTOS/hovsnh5gpb1ogo92wiqa.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
+      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735111164/OJUSPHOTOS/aodjjuyppjlryybhivak.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
     </div>
   );
 };
