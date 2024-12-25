@@ -3,7 +3,7 @@ import './index.css'; // Add your styles in this file
 import { Link } from "react-router-dom";
 import OjusLogo from '../assets/logo.ico';
 import drc from '../assets/dark_rider-character.webp';
-import drcover from '../assets/dark_rider-cover.jpg';
+import drcover from '../assets/sportsojus.png';
 import drtitle from '../assets/dark_rider-title.png';
 import frcover from '../assets/force_mage-cover.jpg';
 import frc from '../assets/force_mage-character.webp';
@@ -119,26 +119,27 @@ const Index = () => {
 
       <div id="page1">
         <div className="container">
-{/*           <div className="left">
+          {/* <div className="left">
             <p>OJUS - 2k25</p>
-          </div>
-          <div className="bottom">
-            <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
+          </div> */}
+          {/* <div className="bottom">
+            <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
           </div> */}
           <div className="image">
+
             <a href="/sports">
               <div className="card">
                 <div className="wrapper">
-                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038815/ehfckugkipz3tf8lrqmt.png" className="cover-image" alt="Dark Rider Cover" />
+                  <img src={drcover} className="cover-image" alt="Dark Rider Cover" />
                 </div>
               </div>
             </a>
           </div>
-{/*           <div className="right">
+          {/* <div className="right">
             <p>OJUS - 2k25</p>
-          </div>
-          <div className="top">
-            <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
+          </div> */}
+          {/* <div className="top">
+            <p>OJUS 2K25 OJUS 2K25 OJUS 2K25 OJUS 2K25</p>
           </div> */}
         </div>
       </div>
@@ -189,12 +190,12 @@ const Index = () => {
       <MDBRow style={{ padding:'80px'}}>
       <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046560/OJUSPHOTOS/og0pjwvdvxyexv1i7d6s.jpg'
+          src='https://mdbcdn.b-cdn.netha/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Boat on Calm Water'
         />
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046558/OJUSPHOTOS/xlnaenmf6qjww2kbekz8.jpg'
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Wintry Mountain Landscape'
         />
@@ -202,13 +203,13 @@ const Index = () => {
 
       <MDBCol lg={4} className='mb-4 mb-lg-0'>
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046553/OJUSPHOTOS/mi3xvd1i9frvbna10rsk.jpg'
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Mountains in the Clouds'
         />
 
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043375/OJUSPHOTOS/wp6ctwtgewbvwa3ntozw.jpg'
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Boat on Calm Water'
         />
@@ -216,13 +217,13 @@ const Index = () => {
 
       <MDBCol lg={4} className='mb-4 mb-lg-0'>
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046549/OJUSPHOTOS/djwmsxqi2syeykafoq8o.jpg'
+          src='https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Waves at Sea'
         />
 
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735046740/OJUSPHOTOS/o23zbmisbgyq92puzmj1.jpg'
+          src='https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Yosemite National Park'
         />
