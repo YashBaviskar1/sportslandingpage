@@ -99,7 +99,7 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src={text}></img>
+  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699280/OJUSPHOTOS/plsv5rvxqvjltqtslsvl.png"></img>
 </div>
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
