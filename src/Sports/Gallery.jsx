@@ -16,7 +16,7 @@ export default function Gallery() {
         />
 
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043373/OJUSPHOTOS/fa2mtqixqcxukbztyaue.jpg'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735121312/gqn6cj6oagyimux4ziao.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Wintry Mountain Landscape'
         />
@@ -24,7 +24,7 @@ export default function Gallery() {
 
       <MDBCol lg={4} className='mb-4 mb-lg-0'>
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043372/OJUSPHOTOS/insrtgkgv0vehfeehkjd.jpg'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735121311/pr98rop3vi0nbp0lxf2u.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Mountains in the Clouds'
         />
@@ -44,7 +44,7 @@ export default function Gallery() {
         />
 
         <img
-          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735043373/OJUSPHOTOS/fa2mtqixqcxukbztyaue.jpg'
+          src='https://res.cloudinary.com/dyhby7bo9/image/upload/v1735121311/vnowofiby9vkfookilxp.jpg'
           className='w-100 shadow-1-strong rounded mb-4'
           alt='Yosemite National Park'
         />
