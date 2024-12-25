@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import './App.css';
 import Index from './Intro/Index';
 import {
@@ -13,20 +12,10 @@ import Login from './Sports/Login';
 import Schedule from "./Sports/Schedule"
 import Council from './Council/Council';
 import Heads from './Heads/Heads';
-import AOS from 'aos';
 import UnifiedContainer from './Sports/box_cricket';
 
 
 function App() {
-  useEffect(() => {
-    // Initialize AOS
-    AOS.init({
-      duration: 1000,  
-      easing: 'ease',  
-      once: true,      
-      mirror: false,   
-    });
-  }, []);
   return (
     <Router>
     <Routes>
