@@ -59,7 +59,7 @@ const Index = () => {
   };
 
   const sliderData = [
-    { name: 'Mike', title: 'web3 Developer', img: { drcover } },
+    { name: 'Mike', title: 'web3 Developer', img:  img  },
     { name: 'Samite', title: 'WordPress Developer', img: img },
     { name: 'Hashi', title: 'Java Developer', img: img },
     { name: 'Kaity', title: 'Web Developer', img: img },
