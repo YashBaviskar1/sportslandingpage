@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import Index from './Intro/Index';
 import {
@@ -12,10 +13,21 @@ import Login from './Sports/Login';
 import Schedule from "./Sports/Schedule"
 import Council from './Council/Council';
 import Heads from './Heads/Heads';
+import AOS from 'aos';
 import UnifiedContainer from './Sports/box_cricket';
+import RenderContent from './Sports/box_cricket';
 
 
 function App() {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,  
+      easing: 'ease',  
+      once: true,      
+      mirror: false,   
+    });
+  }, []);
   return (
     <Router>
     <Routes>
@@ -28,12 +40,11 @@ function App() {
       <Route path="/council" exact element={<Council />} />
       <Route path="/heads" exact element={<Heads />} />
       <Route path="/box-cricket" exact element={<UnifiedContainer />} />
+      <Route path="/box-cricket/contact-us" exact element={<RenderContent />}/>
+      <Route path="/box-cricket/rules" exact element={<RenderContent />}/>
+      <Route path="/box-cricket/details" exact element={<RenderContent />}/>
 
 
-
-
-
-      
     </Routes>
     </Router>
   )
