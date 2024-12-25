@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 .sports{
-  background-color: black;
+
 }
 
 
@@ -25,7 +25,6 @@ body::-webkit-scrollbar {
 
 /* SportsCard.css */
 .events{
-  background-color: black;
   border: none;
 }
 
@@ -36,7 +35,7 @@ body::-webkit-scrollbar {
 .Gallery{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -62,3 +61,7 @@ body::-webkit-scrollbar {
 /* Gallery */
 
 
+.background{
+  background: url("https://res.cloudinary.com/dyhby7bo9/image/upload/v1735138975/eccwwtgxg6jyr6btfibf.png");
+  background-size: cover;
+}
