@@ -22,7 +22,7 @@ const Events = () => {
         {selectedDay === 'day1' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114391/OJUSPHOTOS/txhagfnx2aopmb6xmeod.png" alt="Cricket" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146448/Sports%20Cards/r6oetkincye0kvrdangh.png" alt="Cricket" />
             </Link>
             
             <Link to="/box-cricket">
