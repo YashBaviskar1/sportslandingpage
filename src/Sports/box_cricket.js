@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './box_cricket.css';
 import Logo from "../assets/BOXCRICKET.png"; // Assuming you have the logo image
 import { Link } from 'react-router-dom'; // Import Link to create navigation links
-import { Link, useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'; 
 
 function UnifiedContainer() {
   const [selectedContent, setSelectedContent] = useState('details');
