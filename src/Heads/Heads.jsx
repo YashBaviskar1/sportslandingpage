@@ -54,7 +54,7 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735153098/Heads/jkas9tlwivjvxbhcaqfr.png"
               alt="Krish Jaswal"
             />
           </div>
