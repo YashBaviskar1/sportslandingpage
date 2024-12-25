@@ -4,8 +4,9 @@ import Logo from "../assets/BOXCRICKET.png"; // Assuming you have the logo image
 import { Link } from 'react-router-dom'; // Import Link to create navigation links
 
 function UnifiedContainer() {
-  const [selectedContent, setSelectedContent] = useState('details'); // Default content is "Details"
-  const [activeLink, setActiveLink] = useState('details'); // To track the active link
+  const [selectedContent, setSelectedContent] = useState('details');
+  const [activeLink, setActiveLink] = useState('details');
+  const navigate = useNavigate(); // Initialize the navigate function for redirection
 
   const content = {
     details: {
@@ -66,12 +67,25 @@ function UnifiedContainer() {
     setActiveLink(contentType);
   };
 
+  // Handle button click for redirection
+  const handleButtonClick = () => {
+    navigate('/sports'); // Redirect to the /register route
+  };
+
   return React.createElement(
     'div',
     { className: 'single-container' },
-    React.createElement(
-      'div',
-      { className: 'header-section' },
+
+    // Navbar with button redirection
+    React.createElement('nav', { className: 'navbar' },
+      React.createElement('button', {
+        className: 'navbar-button',
+        onClick: handleButtonClick // Handle the button click for redirection
+      }, 'Back'),
+    ),
+
+    // Header Section
+    React.createElement('div', { className: 'header-section' },
       React.createElement('h1', { className: 'title' }, 'Box Cricket'),
       React.createElement(
         'p',
@@ -79,21 +93,15 @@ function UnifiedContainer() {
         'Experience the thrill of cricket in a compact and exciting format. Box Cricket combines strategy and fun for an unforgettable sporting event.'
       )
     ),
-    React.createElement(
-      'div',
-      { className: 'main-content' },
-      React.createElement(
-        'div',
-        { className: 'left-section' },
+
+    // Main Content Section
+    React.createElement('div', { className: 'main-content' },
+      React.createElement('div', { className: 'left-section' },
         React.createElement('img', { src: Logo, alt: 'Logo', className: 'logo' }),
         React.createElement('button', { className: 'register-btn' }, 'Register')
       ),
-      React.createElement(
-        'div',
-        { className: 'right-section' },
-        React.createElement(
-          'div',
-          { className: 'navigation' },
+      React.createElement('div', { className: 'right-section' },
+        React.createElement('div', { className: 'navigation' },
           React.createElement(Link, {
             to: '/box-cricket/details',
             onClick: () => handleLinkClick('details'),
@@ -125,3 +133,4 @@ function UnifiedContainer() {
 }
 
 export default UnifiedContainer;
+
