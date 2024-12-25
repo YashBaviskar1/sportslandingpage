@@ -72,7 +72,7 @@ const Index = () => {
   return (
     <div id="main">
       <div id="nav1">
-      <img src={OjusLogo} width="90" height="90" alt="Ojus Logo" />
+      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735138975/eccwwtgxg6jyr6btfibf.png" width="90" height="90" alt="Ojus Logo" />
 
       {/* Buttons for Larger Screens */}
       <div className="nav-buttons">
