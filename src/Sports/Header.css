@@ -211,6 +211,7 @@ position: absolute;
 
     .headingCenter{
         font-size: 0.9em;
+        padding: 15px;
     }
 }
 
@@ -291,7 +292,9 @@ header {
     overflow-x: hidden;
   }
   
-  
+  #home{
+    margin-top: -59px ;
+  }
 
 
 
