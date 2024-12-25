@@ -54,6 +54,7 @@ const HeroSection = () => {
 
   return (
     <>
+    <div id="home">
       <header>
         <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} />
         
@@ -98,7 +99,7 @@ const HeroSection = () => {
           ))}
         </div>
 <div className="Trophy">
-  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699280/OJUSPHOTOS/plsv5rvxqvjltqtslsvl.png"></img>
+  <img src={text}></img>
 </div>
         <div className="arrows">
           <button onClick={handlePrev} className="prev">
@@ -120,6 +121,7 @@ const HeroSection = () => {
       </div>
 
         
+      </div>
       </div>
     </>
   );
