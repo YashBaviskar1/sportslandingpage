@@ -64,7 +64,7 @@
   
 @media screen and (max-width: 768px) {
  .event-tabs .image-container{
-  flex-direction: coloum;
+  flex-direction: column;
  }
 
 .image-container img{
