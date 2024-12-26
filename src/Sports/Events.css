@@ -1,11 +1,11 @@
 .event-tabs {
+  flex-direction: column;
   font-family: Arial, sans-serif;
   padding: 20px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 100%;
   border-radius: 5px;
 }
@@ -83,7 +83,6 @@
   height: 20% !importtant;
   display: flex;
   flex-direction: row !importtant;
-}
   
 }
 
@@ -99,14 +98,20 @@
   border-radius: 5px;
 }
 
-.tabs {
+.event-tabs .tabs{
+  flex-direction: row;
+}
+  
+}
+
+/* .tabs {
   background-color: lightgoldenrodyellow;
   display: flex;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 30px;
   gap: 10px;
-}
+} */
 
 .tab {
   background-color: lightgoldenrodyellow;
@@ -168,6 +173,10 @@
 
   .image-container img {
     width: 50%;
+  }
+
+  .event-tabs{
+    flex-direction: row;
   }
 }
 
@@ -243,6 +252,3 @@
     width: 70%;
   }
 }
-
-
-
