@@ -26,7 +26,7 @@ const Events = () => {
             </Link>
             
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735193837/a8jeesmnhdycou6bhpmu.svg" alt="Tug of War" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/lldkmjsutrbia6yrq7pn.png" alt="Tug of War" />
             </Link>
           </div>
         )}
