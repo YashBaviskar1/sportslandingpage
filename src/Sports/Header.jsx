@@ -57,13 +57,14 @@ const HeroSection = () => {
   return (
     <>
     <div id="home">
-      <header>
+         <header>
         <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} />
-        
+        <Link to='/login' style={{backgroundColor:"white", padding:'10px  20px', borderRadius:'50px', color:'black', marginTop:"50px", textDecoration:'none'}}>Login</Link>
        
         <div
         className={`hamburger1 ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
+        style={{marginTop:"30px"}}
       >
         <div className="line"></div>
         <div className="line"></div>
