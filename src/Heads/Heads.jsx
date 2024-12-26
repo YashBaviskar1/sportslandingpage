@@ -176,7 +176,7 @@ const Heads = () => {
             />
           </div>
           <div className="t-b-text">
-            <strong>Dravesh Jain</strong>
+            <strong>Aryan Yadav</strong>
             <span>Co-Head</span>
           </div>
         </div>
