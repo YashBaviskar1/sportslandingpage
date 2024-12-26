@@ -8,7 +8,7 @@ import frcover from '../assets/force_mage-cover.jpg';
 import frc from '../assets/force_mage-character.webp';
 import frtitle from '../assets/force_mage-title.png';
 import img from '../assets/img.jpg';
-import video from '../assets/nfs2.mp4';
+import video from '../assets/sports1.mp4';
 import {
   MDBContainer,
   MDBCol,
