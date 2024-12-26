@@ -81,6 +81,7 @@
 .image-container img{
   width: 50%;
   height: 20% !importtant;
+  flex-direction: column !importtant;
 }
   
 }
