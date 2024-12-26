@@ -78,7 +78,7 @@
   flex-direction: column;
  }
 
-.image-container{
+.image-container div{
   width: 50%;
   height: 20% !importtant;
   display: flex;
