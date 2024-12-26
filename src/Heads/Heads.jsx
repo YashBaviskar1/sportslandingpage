@@ -54,7 +54,7 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735203681/Heads/koy9cryf0hosl1sf6yko.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735204545/Heads/vkfudwnsgfidnwrl8qn0.png"
               alt="Stharva Shibe"
             />
           </div>
@@ -80,7 +80,7 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735203680/Heads/zphrdjdj09cf7ho7ru7a.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735204567/Heads/adcufmu3aoebov4dzrdx.png"
               alt="Dravesh Jain"
             />
           </div>
