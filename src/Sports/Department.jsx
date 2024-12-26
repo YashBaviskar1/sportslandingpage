@@ -13,7 +13,7 @@ const LogoFlexbox = () => {
       margin:"auto",
     }}>
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699257/OJUSPHOTOS/s7kpjfjof8jsckpqihsz.png" alt="Logo 1" style={{ width: '130px', height: 'auto' }} />
-      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/hmqlfhlrv92drregbyhg.png" alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
+      <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735240663/Heads/xc9niktipwm59nexz8wb.png" alt="Logo 2" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699266/OJUSPHOTOS/j1fi3twa2rx3x3lhuwa8.png" alt="Logo 3" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699276/OJUSPHOTOS/vbd00sgou0ychslyokto.png" alt="Logo 4" style={{ width: '130px', height: 'auto' }} />
       <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699277/OJUSPHOTOS/gvuiwwildkcuc36sdtnz.png" alt="Logo 5" style={{ width: '130px', height: 'auto' }} />
