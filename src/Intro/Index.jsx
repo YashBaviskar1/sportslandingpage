@@ -236,7 +236,7 @@ const Index = () => {
       <footer className="footer">
         <div className="text-center p-3">
           <h7 className="text-body">
-           <a href="https://yadneshbamne.github.io/OjusWebDev/" style={{textDecoration:'none', color:'white'}} >OJUS WebDev 2k25❤️</a>
+           <a href="https://ojus-web-dev.vercel.app/" style={{textDecoration:'none', color:'white'}} >OJUS WebDev 2k25❤️</a>
           </h7>
         </div>
       </footer>
