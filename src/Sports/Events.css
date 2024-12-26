@@ -64,7 +64,7 @@
   
 @media screen and (max-width: 768px) {
  .event-tabs .image-container{
-  flex-direction: column;
+  flex-direction: row;
  }
 
 .image-container img{
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 320px) {
  .event-tabs .image-container{
-  flex-direction: column;
+  flex-direction: row;
  }
 
 .image-container div{
@@ -163,7 +163,7 @@
   }
 
   .image-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .image-container img {
@@ -186,7 +186,7 @@
   }
 
   .image-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .image-container img {
@@ -210,7 +210,7 @@
   }
 
   .image-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .image-container img {
@@ -221,7 +221,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -235,7 +235,7 @@
 
 @media screen and (max-width: 414px) {
   .tabs {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
