@@ -236,7 +236,7 @@ const Index = () => {
       <footer className="footer">
         <div className="text-center p-3">
           <h7 className="text-body">
-            OJUS WebDev 2k25❤️
+           <a href="https://yadneshbamne.github.io/OjusWebDev/" style={{textDecoration:'none', color:'white'}} >OJUS WebDev 2k25❤️</a>
           </h7>
         </div>
       </footer>
