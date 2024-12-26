@@ -163,7 +163,7 @@
   }
 
   .image-container {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .image-container img {
