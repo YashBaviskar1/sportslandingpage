@@ -10,9 +10,9 @@ const images = [
   { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699274/OJUSPHOTOS/gftwej7iyf5d5eq64oqj.jpg", title: "Cricket", subtitle: "Sportsmanship" },
   { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699275/OJUSPHOTOS/qirhfbnkzjxfzaktkqf8.jpg", title: "Volleyball", subtitle: "Design" },
   { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699271/OJUSPHOTOS/upw4qeu1z02da72p41gn.jpg", title: "Football", subtitle: "Design" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699271/OJUSPHOTOS/upw4qeu1z02da72p41gn.jpg", title: "Football", subtitle: "Design" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699271/OJUSPHOTOS/upw4qeu1z02da72p41gn.jpg", title: "Football", subtitle: "Design" },
-  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699271/OJUSPHOTOS/upw4qeu1z02da72p41gn.jpg", title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735207250/zpwgjufcyf1j1wzrhuu6.jpg", title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735207248/rti6jt2muxixfubevlhn.jpg", title: "Football", subtitle: "Design" },
+  { src: "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735207250/puj356zzb428qvslvizs.jpg", title: "Football", subtitle: "Design" },
   
 ];
 
