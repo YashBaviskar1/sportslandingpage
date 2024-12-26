@@ -183,19 +183,19 @@ const Heads = () => {
       </section>
       <div id="nav">
         <center>
-          <h2>Event Management</h2>
+          <h2>PR & SPONSORSHIP</h2>
         </center>
       </div>
       <section id="team">
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735235680/Heads/jwemhrni7ds0xu5uedqz.png"
               alt="Krish Jaswal"
             />
           </div>
           <div className="t-b-text">
-            <strong>Krish Jaswal</strong>
+            <strong>Harsh Gaikwad</strong>
             <span>Head</span>
           </div>
         </div>
@@ -203,12 +203,12 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/miheet_shah_z22bpc.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735235969/Heads/apvddbupkmwx1pi1w9co.png"
               alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Miheet Shah</strong>
+            <strong>Akshat MUPPIRI</strong>
             <span>Head</span>
           </div>
         </div>
@@ -216,19 +216,19 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735235813/Heads/isuy3hwckgtashckrom8.png"
               alt="Dravesh Jain"
             />
           </div>
           <div className="t-b-text">
-            <strong>Dravesh Jain</strong>
+            <strong>YASH APTE</strong>
             <span>Co-Head</span>
           </div>
         </div>
       </section>
       <div id="nav">
         <center>
-          <h2>Event Management</h2>
+          <h2>LOGISTICS</h2>
         </center>
       </div>
       <section id="team">
@@ -240,7 +240,7 @@ const Heads = () => {
             />
           </div>
           <div className="t-b-text">
-            <strong>Krish Jaswal</strong>
+            <strong>Shreyash Gharge</strong>
             <span>Head</span>
           </div>
         </div>
@@ -248,12 +248,12 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/miheet_shah_z22bpc.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236214/Heads/kvho8x25ue897wvkcdv2.png"
               alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Miheet Shah</strong>
+            <strong>Harshit Jain</strong>
             <span>Head</span>
           </div>
         </div>
@@ -261,76 +261,75 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236284/Heads/ml9mn8m1mpp90ueqtkwe.png"
+              alt="Miheet Shah"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Onkar Deshpande</strong>
+            <span>Co-Head</span>
+          </div>
+        </div>
+
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236357/Heads/cv38qzzbchafukeqsj3m.png"
               alt="Dravesh Jain"
             />
           </div>
           <div className="t-b-text">
-            <strong>Dravesh Jain</strong>
+            <strong>Amey Avhad</strong>
             <span>Co-Head</span>
           </div>
         </div>
       </section>
       <div id="nav">
         <center>
-          <h2>Event Management</h2>
+          <h2>HOSPITALITY</h2>
         </center>
       </div>
       <section id="team">
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236761/Heads/xyh1uqsb0xjpiqpep8g8.png"
               alt="Krish Jaswal"
             />
           </div>
           <div className="t-b-text">
-            <strong>Krish Jaswal</strong>
+            <strong>Sail Dalvi</strong>
             <span>Head</span>
           </div>
         </div>
-
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/miheet_shah_z22bpc.png"
-              alt="Miheet Shah"
-            />
-          </div>
-          <div className="t-b-text">
-            <strong>Miheet Shah</strong>
-            <span>Head</span>
-          </div>
-        </div>
-
-        <div className="team-box">
-          <div className="t-b-img">
-            <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236793/Heads/uzc6zohn54q7ypmececd.png"
               alt="Dravesh Jain"
             />
           </div>
           <div className="t-b-text">
-            <strong>Dravesh Jain</strong>
-            <span>Co-Head</span>
+            <strong>Abha Bhide</strong>
+            <span>Head</span>
           </div>
         </div>
       </section>
       <div id="nav">
         <center>
-          <h2>Event Management</h2>
+          <h2>SECURITY</h2>
         </center>
       </div>
       <section id="team">
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236987/Heads/b1xmtcp1va7y1gtr2cxq.png"
               alt="Krish Jaswal"
             />
           </div>
           <div className="t-b-text">
-            <strong>Krish Jaswal</strong>
+            <strong>Sairaj Waje</strong>
             <span>Head</span>
           </div>
         </div>
@@ -338,12 +337,45 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/miheet_shah_z22bpc.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236992/Heads/w7ntwh9bjalqflxq6hit.png"
               alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Miheet Shah</strong>
+            <strong>Shubam Patil</strong>
+            <span>Co-Head</span>
+          </div>
+        </div>
+
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735237089/Heads/qb3d9uho8warracfkbap.png"
+              alt="Dravesh Jain"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Shivam Pawar</strong>
+            <span>Co-Head</span>
+          </div>
+        </div>
+      </section>
+      
+        <div id="nav">
+        <center>
+          <h2>CINEMATOGRAPHY</h2>
+        </center>
+      </div>
+      <section id="team">
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238637/Heads/hhcoeexuogneyirpixmn.png"
+              alt="Krish Jaswal"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Abhishek Sali</strong>
             <span>Head</span>
           </div>
         </div>
@@ -351,13 +383,79 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png"
-              alt="Dravesh Jain"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236992/Heads/w7ntwh9bjalqflxq6hit.png"
+              alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Dravesh Jain</strong>
-            <span>Co-Head</span>
+            <strong>Prathamesh More</strong>
+            <span>Head</span>
+          </div>
+        </div>
+      </section>
+
+              <div id="nav">
+        <center>
+          <h2>PHOTOGRAPHY</h2>
+        </center>
+      </div>
+      <section id="team">
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238861/Heads/frebihotbtswenehskps.png"
+              alt="Krish Jaswal"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Brahmjot Singh</strong>
+            <span>Head</span>
+          </div>
+        </div>
+
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238895/Heads/odgyehjubruwco6jyixm.png"
+              alt="Miheet Shah"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Dhruv Pawar</strong>
+            <span>Head</span>
+          </div>
+        </div>
+      </section>
+
+      <div id="nav">
+        <center>
+          <h2>PUBLICITY</h2>
+        </center>
+      </div>
+      <section id="team">
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238861/Heads/frebihotbtswenehskps.png"
+              alt="Krish Jaswal"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Brahmjot Singh</strong>
+            <span>Head</span>
+          </div>
+        </div>
+
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238895/Heads/odgyehjubruwco6jyixm.png"
+              alt="Miheet Shah"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Dhruv Pawar</strong>
+            <span>Head</span>
           </div>
         </div>
       </section>
