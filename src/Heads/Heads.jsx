@@ -146,7 +146,7 @@ const Heads = () => {
           <div className="t-b-img">
             <img
               src=""
-              alt="Krish Jaswal"
+              alt=""
             />
           </div>
           <div className="t-b-text">
