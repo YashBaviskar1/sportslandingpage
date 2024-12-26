@@ -78,9 +78,10 @@
   flex-direction: column;
  }
 
-.image-container img{
+.image-container{
   width: 50%;
   height: 20% !importtant;
+  display: flex;
   flex-direction: column !importtant;
 }
   
