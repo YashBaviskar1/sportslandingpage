@@ -528,7 +528,7 @@ div .image{
   border-radius: 5px;
 }
 .cover-image{
-  width: 100%;
+  width: 120%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
@@ -539,6 +539,8 @@ div .image{
   width: 100%;
   z-index: -1;
   border-radius: 5px;
+  margin: 20px;
+  
 }
 
 
