@@ -7,7 +7,17 @@ import { useNavigate } from 'react-router-dom';
 function UnifiedContainer() {
   const [selectedContent, setSelectedContent] = useState('details');
   const [activeLink, setActiveLink] = useState('details');
-  const navigate = useNavigate(); // Initialize the navigate function for redirection
+  const [genderToggle, setGenderToggle] = useState(true); // State for Girls/Boys toggle
+  const [typeToggle, setTypeToggle] = useState(true); // State for Singles/Doubles toggle
+  const navigate = useNavigate();
+
+  const handleGenderToggle = () => {
+    setGenderToggle((prev) => !prev);
+  };
+
+  const handleTypeToggle = () => {
+    setTypeToggle((prev) => !prev);
+  };
 
   const content = {
     details: {
@@ -68,24 +78,19 @@ function UnifiedContainer() {
     setActiveLink(contentType);
   };
 
-  // Handle button click for redirection
   const handleButtonClick = () => {
-    navigate('/sports'); // Redirect to the /register route
+    navigate('/sports');
   };
 
   return React.createElement(
     'div',
     { className: 'single-container' },
-
-    // Navbar with button redirection
     React.createElement('nav', { className: 'navbar' },
       React.createElement('button', {
         className: 'navbar-button',
-        onClick: handleButtonClick // Handle the button click for redirection
+        onClick: handleButtonClick
       }, 'Back'),
     ),
-
-    // Header Section
     React.createElement('div', { className: 'header-section' },
       React.createElement('h1', { className: 'title' }, 'Box Cricket'),
       React.createElement(
@@ -94,12 +99,28 @@ function UnifiedContainer() {
         'Experience the thrill of cricket in a compact and exciting format. Box Cricket combines strategy and fun for an unforgettable sporting event.'
       )
     ),
-
-    // Main Content Section
     React.createElement('div', { className: 'main-content' },
       React.createElement('div', { className: 'left-section' },
         React.createElement('img', { src: Logo, alt: 'Logo', className: 'logo' }),
-        React.createElement('button', { className: 'register-btn' }, 'Register')
+        React.createElement('button', { className: 'register-btn' }, 'Register'),
+
+        // Wrapper for Toggle Buttons
+        React.createElement(
+          'div',
+          { className: 'toggle-buttons' },
+          React.createElement(
+            'div',
+            { className: `toggle-switch ${genderToggle ? 'on' : 'off'}`, onClick: handleGenderToggle },
+            React.createElement('div', { className: 'toggle-handle' }),
+            React.createElement('div', { className: 'toggle-text' }, genderToggle ? 'Girls' : 'Boys')
+          ),
+          React.createElement(
+            'div',
+            { className: `toggle-switch ${typeToggle ? 'on' : 'off'}`, onClick: handleTypeToggle },
+            React.createElement('div', { className: 'toggle-handle' }),
+            React.createElement('div', { className: 'toggle-text' }, typeToggle ? 'Singles' : 'Doubles')
+          )
+        )
       ),
       React.createElement('div', { className: 'right-section' },
         React.createElement('div', { className: 'navigation' },
