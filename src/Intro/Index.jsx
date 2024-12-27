@@ -161,7 +161,7 @@ const Index = () => {
           </div>
         </div> */}
 
-        <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1734714831/OJUSPHOTOS/ce0uhyewax4zkdq19inm.mp4">
+        <div className="elem" data-video={video}>
           <h2>Sports</h2>
         </div>
 
