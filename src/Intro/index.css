@@ -522,7 +522,6 @@ div .image{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
   perspective: 2500px;
   margin: 0 50px;
   border-radius: 5px;
@@ -540,7 +539,6 @@ div .image{
   z-index: -1;
   border-radius: 5px;
   margin: 20px;
-  
 }
 
 
