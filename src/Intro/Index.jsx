@@ -129,14 +129,14 @@ const Index = () => {
             <a href="/sports">
               <div className="card">
                 <div className="wrapper">
-                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735038815/ehfckugkipz3tf8lrqmt.png" className="cover-image" alt="Dark Rider Cover" />
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735326121/New%20Sports%20Card/lxftae2qetdufx20sxch.png" className="cover-image" alt="Dark Rider Cover" />
                 </div>
               </div>
             </a>
             <a>
               <div className="card">
                 <div className="wrapper">
-                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735283381/Sports%20Cards/rtjdgmu94tf2jom1jbpu.png" className="cover-image" alt="Dark Rider Cover" />
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735326864/New%20Sports%20Card/n35lti0pf4q82rdece7x.png" className="cover-image" alt="Dark Rider Cover" />
                 </div>
               </div>
             </a>
