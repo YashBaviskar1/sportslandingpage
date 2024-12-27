@@ -18,12 +18,12 @@ const Council = () => {
       year: '2024',
       members: [
         { name: 'Razzaq Shikalgar', role: 'President', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
-        { name: 'Ansh Chavan', role: 'General Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/miheet_shah_z22bpc.png' },
+        { name: 'Ansh Chavan', role: 'General Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/nym4zo96a6e3nonik4za.png' },
         
       ],
       members1: [
         { name: 'Dravesh Jain', role: 'Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Richa Thanekar', role: 'Ladies Representative', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
+        { name: 'Richa Thanekar', role: 'Ladies Representative', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/iktqglo0g2dxrdklbek6.png' },
         { name: 'Dhurv Sawant', role: 'Sports Representative', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
       ],
       members2: [
