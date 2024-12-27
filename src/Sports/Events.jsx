@@ -22,11 +22,11 @@ const Events = () => {
         {selectedDay === 'day1' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735193837/a8jeesmnhdycou6bhpmu.svg" alt="Cricket" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146448/Sports%20Cards/r6oetkincye0kvrdangh.png" alt="Cricket" />
             </Link>
             
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/lldkmjsutrbia6yrq7pn.png" alt="Tug of War" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146448/Sports%20Cards/vsonutvwtebqpgmkvcnp.png" alt="Tug of War" />
             </Link>
           </div>
         )}
@@ -36,7 +36,7 @@ const Events = () => {
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/ovq0bges1np1dnca897p.png" alt="Football(Boys)" />
             </Link>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146453/Sports%20Cards/ytdxxgtwlkwefw8sxcto.png" alt="Dodgeball(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146437/Sports%20Cards/jcxlnfqmtiq1tocx0pxz.png" alt="Throwball(Girls)" />
             </Link>
             <Link to="/box-cricket">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146447/Sports%20Cards/nvoqitpvxgv7ix9zsrgp.png" alt="Volleyball(Boys)" />
@@ -59,7 +59,7 @@ const Events = () => {
         {selectedDay === 'day4' && (
           <div>
             <Link to="/box-cricket">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146411/Sports%20Cards/n56tjenpoane6i52u2vk.png" alt="Badminton" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735281920/Sports%20Cards/nmpauqef7t2gpdirvlyk.png " alt="Badminton" />
             </Link>
             <Link to="/box-cricket">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/ha7skdj9mrrfh1gujwei.png" alt="Table Tennis" />
