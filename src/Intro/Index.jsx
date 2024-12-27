@@ -151,7 +151,7 @@ const Index = () => {
       </div>
 
       <div id="page2" ref={page2Ref}>
-        <div className="elem">
+{/*         <div className="elem">
           <h2>Festivals</h2>
           <div className="moving">
             <div className="blur" />
@@ -159,19 +159,13 @@ const Index = () => {
               <h5>Click Me</h5>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="elem" data-video={video}>
           <h2>Sports</h2>
-          <div className="moving">
-            <div className="blur" />
-            <div className="moving-in">
-              <h5>Demo text</h5>
-            </div>
-          </div>
         </div>
 
-        <div className="elem" data-video={video}>
+{/*         <div className="elem" data-video={video}>
           <h2>Cultural</h2>
           <div className="moving">
             <div className="blur" />
@@ -179,8 +173,8 @@ const Index = () => {
               <h5>Demo text</h5>
             </div>
           </div>
-        </div>
-
+        </div> */}
+{/* 
         <div className="elem" data-video="./val.mp4">
           <h2>Ghanekar</h2>
           <div className="moving">
@@ -189,7 +183,7 @@ const Index = () => {
               <h5>Demo text</h5>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div id="page3">
