@@ -9,11 +9,12 @@ function UnifiedContainer() {
   const [error, setError] = useState(null);
   const [logo, setLogo] = useState('');
   const [user, setUser] = useState(null); // User state for authentication
-
-
   const [genderToggle, setGenderToggle] = useState(true); // State for Girls/Boys toggle
   const [typeToggle, setTypeToggle] = useState(true); // State for Singles/Doubles toggle
   const navigate = useNavigate();
+
+  // List of sports where we want to hide the "Register" button and toggles
+  const hiddenSports = ['overarm-cricket(boys)', 'football(boys)', 'kabaddi(boys)'];
 
   const handleGenderToggle = () => {
     setGenderToggle((prev) => !prev);
@@ -35,27 +36,13 @@ function UnifiedContainer() {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const response = await fetch(`http:///localhost:5000/sports/${sport}/${section}`);
+        const response = await fetch(`http://localhost:5000/sports/${sport}/${section}`);
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
         const data = await response.json();
-        console.log("data : ", data)
-        console.log("data : ", data);
-  
-        // Access the specific sport details for overarm-cricket(boys)
-        const sportDetails = data.data[`${sport}`];
-  
-        // Log specific details (head, head_mobile_no, volunteer, etc.)
-        console.log("Head:", sportDetails.head);
-        console.log("Head Mobile No:", sportDetails.head_mobile_no);
-        console.log("Volunteer:", sportDetails.volunteer);
-        console.log("Volunteer Mobile No:", sportDetails.volunteer_mobile_no);
-
-
-
         setLogo(data.logo); 
-        setContent(sportDetails);
+        setContent(data.data[sport]);
       } catch (err) {
         setError(err.message);
       }
@@ -69,7 +56,6 @@ function UnifiedContainer() {
       user,
       sport,
     };
-    console.log(data)
     try {
       const response = await fetch('http://127.0.0.1:5000/register', {
         method: 'POST',
@@ -79,17 +65,13 @@ function UnifiedContainer() {
         body: JSON.stringify(data),
         credentials: 'include',
       });
-
       const responseData = await response.json();
-
       if (!response.ok) {
         alert(responseData.message || 'Failed to register');
       } else {
-        console.log(data)
         alert(`Registered successfully for ${sport}`);
       }
     } catch (error) {
-      console.error('Registration error:', error);
       alert('An error occurred during registration');
     }
   };
@@ -172,34 +154,44 @@ function UnifiedContainer() {
         {/* Left Section */}
         <div className="left-section">
           <img src={logo} alt={`${sport} Logo`} className="logo" />
-          <button className="register-btn" onClick={participate}>
-            {user ? 'Register' : 'Login to Register'}
-          </button>
+          
+          {/* Conditionally hide register button for hidden sports */}
+          {!hiddenSports.includes(sport) && (
+            <button className="register-btn" onClick={participate}>
+              {user ? 'Register' : 'Login to Register'}
+            </button>
+          )}
   
-          {/* Toggle Buttons */}
-          <div className="toggle-buttons">
-            {/* Gender Toggle Switch */}
-            <div
-              className={`toggle-switch ${genderToggle ? 'on' : 'off'}`}
-              onClick={handleGenderToggle}
-            >
-              <div className="toggle-handle"></div>
-              <div className="toggle-text">
-                {genderToggle ? 'Girls' : 'Boys'}
-              </div>
-            </div>
-  
-            {/* Type Toggle Switch */}
-            <div
-              className={`toggle-switch ${typeToggle ? 'on' : 'off'}`}
-              onClick={handleTypeToggle}
-            >
-              <div className="toggle-handle"></div>
-              <div className="toggle-text">
-                {typeToggle ? 'Singles' : 'Doubles'}
-              </div>
-            </div>
-          </div>
+          {/* Toggle Buttons (only for visible sports) */}
+  {/* Gender Toggle Button (only for visible sports) */}
+{!hiddenSports.includes(sport) && (
+  <div className="toggle-buttons">
+    <div
+      className={`toggle-switch ${genderToggle ? 'on' : 'off'}`}
+      onClick={handleGenderToggle}
+    >
+      <div className="toggle-handle"></div>
+      <div className="toggle-text">
+        {genderToggle ? 'Girls' : 'Boys'}
+      </div>
+    </div>
+  </div>
+)}
+
+{/* Type Toggle Button (only for visible sports) */}
+{!hiddenSports.includes(sport) && sport !== "chess"  && (
+  <div className="toggle-buttons">
+    <div
+      className={`toggle-switch ${typeToggle ? 'on' : 'off'}`}
+      onClick={handleTypeToggle}
+    >
+      <div className="toggle-handle"></div>
+      <div className="toggle-text">
+        {typeToggle ? 'Singles' : 'Doubles'}
+      </div>
+    </div>
+  </div>
+)}
         </div>
   
         {/* Right Section */}
@@ -240,5 +232,5 @@ function UnifiedContainer() {
     </div>
   );
 }
-  export default UnifiedContainer;
-  
+
+export default UnifiedContainer;
