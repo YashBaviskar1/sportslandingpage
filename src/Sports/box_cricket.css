@@ -451,3 +451,52 @@ p,strong{
   font-size: 15px;
   font-weight: bold;
 }
+
+/* Toggle Switch Styles */
+.toggle-switch {
+  width: 167px; /* Increased width */
+  height: 50px; /* Increased height */
+  background-color: #6a2e2e;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-flex; /* For horizontal alignment */
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px; /* Space between toggles */
+}
+
+.toggle-switch.on {
+  background-color: #4caf50;
+}
+
+.toggle-handle {
+  width: 44px; /* Increased handle size */
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: left 0.3s ease;
+}
+
+.toggle-switch.on .toggle-handle {
+  left: 120px; /* Adjusted for increased size */
+}
+
+.toggle-text {
+  position: absolute;
+  font-size: 16px; /* Increased text size */
+  font-weight: bold;
+  color: white;
+}
+
+/* Wrapper for toggle buttons to align side-by-side */
+.toggle-buttons {
+  display: flex; /* Horizontal alignment */
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px; /* Space between register button and toggles */
+}
