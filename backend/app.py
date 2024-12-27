@@ -136,7 +136,7 @@ def register() :
             cursor.execute(query, data)
             conn.commit()
             print("Database Queries executed successfully")
-            update_excel(data)
+            #update_excel(data)
     #------------------->SEND EMAIL<--------------------------
             #send_mail(student['email'], selection)
 

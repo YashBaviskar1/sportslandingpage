@@ -49,16 +49,6 @@ const HeroSection = () => {
     setActiveIndex(index);
   };
 
-  const handleLogout = () => {
-    // Clear cookies (assuming you're using cookies for user storage)
-    document.cookie = 'user=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-  
-    // Clear user from state
-    setUser(null);
-  
-    // Optionally navigate to the login page
-    navigate('/login');
-  };
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -104,7 +94,6 @@ const HeroSection = () => {
     </span>
   )}
 
-       <button onClick={handleLogout} >Log out</button>
         <div
         className={`hamburger1 ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}

@@ -13,26 +13,38 @@ function UnifiedContainer() {
   const [typeToggle, setTypeToggle] = useState(true); // State for Singles/Doubles toggle
   const navigate = useNavigate();
 
-  // List of sports where we want to hide the "Register" button and toggles
-  const hiddenSports = ['overarm-cricket(boys)', 'football(boys)', 'kabaddi(boys)'];
-
+  const hiddenSports = ['overarm-cricket(boys)', 'football(boys)', "tug-of-war(boys)", "tug-of-war(girls)",
+    "throwball(girls)", "box-cricket(girls)"
+  ];
+  const hideSingleDoubles = ['chess(boys)', 'kabbadi(boys)', 'kabbadi(girls)', 'chess(girls)'];
+  const hideRegister = ['kabbadi(boys)', 'kabbadi(girls)']
   const handleGenderToggle = () => {
     setGenderToggle((prev) => !prev);
   };
+
+  useEffect(() => {
+    const newGender = genderToggle ? "boys" : "girls";
+    const updatedSport = sport.replace(/boys|girls/, newGender);
+    navigate(`/${updatedSport}/${section}`); // Navigate to updated gender-specific URL
+  }, [genderToggle, sport, section, navigate]);
 
   const handleTypeToggle = () => {
     setTypeToggle((prev) => !prev);
   };
 
-  // Fetch User Data from Cookies
+  useEffect(() => {
+    const newType = typeToggle ? "singles" : "doubles";
+    const updatedSport = sport.replace(/singles|doubles/, newType);
+    navigate(`/${updatedSport}/${section}`); // Navigate to updated singles/doubles-specific URL
+  }, [typeToggle, sport, section, navigate]);
+
   useEffect(() => {
     const userData = Cookies.get("userData");
     if (userData) {
-      setUser(JSON.parse(userData)); 
+      setUser(JSON.parse(userData));
     }
   }, []);
 
-  // Fetch Sports Data
   useEffect(() => {
     const fetchContent = async () => {
       try {
@@ -50,7 +62,6 @@ function UnifiedContainer() {
     fetchContent();
   }, [sport, section]);
 
-  // Submit Registration Form
   const submitForm = async () => {
     const data = {
       user,
@@ -76,7 +87,6 @@ function UnifiedContainer() {
     }
   };
 
-  // Participate Button Handler
   const participate = () => {
     if (!user) {
       alert('You need to be logged in first');
@@ -85,12 +95,11 @@ function UnifiedContainer() {
     }
   };
 
-  // Render Dynamic Content
   const RenderContent = () => {
     if (error) {
       return <p>Error: {error}</p>;
     }
-  
+
     if (section === 'details') {
       return (
         <>
@@ -133,14 +142,14 @@ function UnifiedContainer() {
       return <p>No content available.</p>;
     }
   };
-  
+
   return (
     <div className="single-container">
       {/* Navbar */}
       <nav className="navbar">
         <button className="navbar-button" onClick={() => navigate('/sports')}>Back</button>
       </nav>
-  
+
       {/* Header Section */}
       <div className="header-section">
         <h1 className="title">{sport.toUpperCase()}</h1>
@@ -148,79 +157,75 @@ function UnifiedContainer() {
           Experience the thrill of {sport} in a compact and exciting format.
         </p>
       </div>
-  
+
       {/* Main Content */}
       <div className="main-content">
         {/* Left Section */}
         <div className="left-section">
           <img src={logo} alt={`${sport} Logo`} className="logo" />
-          
+
           {/* Conditionally hide register button for hidden sports */}
-          {!hiddenSports.includes(sport) && (
+          {!hiddenSports.includes(sport) && !hideRegister.includes(sport) && (
             <button className="register-btn" onClick={participate}>
               {user ? 'Register' : 'Login to Register'}
             </button>
           )}
-  
-          {/* Toggle Buttons (only for visible sports) */}
-  {/* Gender Toggle Button (only for visible sports) */}
-{!hiddenSports.includes(sport) && (
-  <div className="toggle-buttons">
-    <div
-      className={`toggle-switch ${genderToggle ? 'on' : 'off'}`}
-      onClick={handleGenderToggle}
-    >
-      <div className="toggle-handle"></div>
-      <div className="toggle-text">
-        {genderToggle ? 'Girls' : 'Boys'}
-      </div>
-    </div>
-  </div>
-)}
 
-{/* Type Toggle Button (only for visible sports) */}
-{!hiddenSports.includes(sport) && sport !== "chess"  && (
-  <div className="toggle-buttons">
-    <div
-      className={`toggle-switch ${typeToggle ? 'on' : 'off'}`}
-      onClick={handleTypeToggle}
-    >
-      <div className="toggle-handle"></div>
-      <div className="toggle-text">
-        {typeToggle ? 'Singles' : 'Doubles'}
-      </div>
-    </div>
-  </div>
-)}
+          {/* Gender Toggle Button (only for visible sports) */}
+          {!hiddenSports.includes(sport) && (
+            <div className="toggle-buttons">
+              <div
+                className={`toggle-switch ${genderToggle ? 'off' : 'on'}`}
+                onClick={handleGenderToggle}
+              >
+                <div className="toggle-handle"></div>
+                <div className="toggle-text">
+                  {genderToggle ? 'Boys' : 'Girls'}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Type Toggle Button (only for visible sports and not in hideSingleDoubles list) */}
+          {!hiddenSports.includes(sport) && !hideSingleDoubles.includes(sport) && (
+            <div className="toggle-buttons">
+              <div
+                className={`toggle-switch ${typeToggle ? 'on' : 'off'}`}
+                onClick={handleTypeToggle}
+              >
+                <div className="toggle-handle"></div>
+                <div className="toggle-text">
+                  {typeToggle ? 'Singles' : 'Doubles'}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
-  
+
         {/* Right Section */}
         <div className="right-section">
           {/* Navigation Links */}
           <div className="navigation">
             <Link
               to={`/${sport}/details`}
-              onClick={() => handleLinkClick('details')}
               className={section === 'details' ? 'active' : ''}
             >
               Details
             </Link>
             <Link
               to={`/${sport}/rules`}
-              onClick={() => handleLinkClick('rules')}
               className={section === 'rules' ? 'active' : ''}
             >
               Rules
             </Link>
             <Link
               to={`/${sport}/contact`}
-              onClick={() => handleLinkClick('contact')}
               className={section === 'contact' ? 'active' : ''}
             >
               Contact Us
             </Link>
           </div>
-  
+
           {/* Content Box */}
           <div className="content-box">
             <div className="content-details">
