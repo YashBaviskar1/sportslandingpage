@@ -24,19 +24,19 @@ const Council = () => {
       members1: [
         { name: 'Dravesh Jain', role: 'Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
         { name: 'Richa Thanekar', role: 'Ladies Representative', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/iktqglo0g2dxrdklbek6.png' },
-        { name: 'Dhurv Sawant', role: 'Sports Representative', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
+        { name: 'Dhurv Sawant', role: 'Sports Representative', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291245/COUNCIIL/f6myoq696fyjgnyao5wt.png' },
       ],
       members2: [
-        { name: 'Harsh Borge', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Ankit Chavan', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Shlok Kute', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Yogini Yadav', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
+        { name: 'Harsh Borge', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/d4l8vbotxl6oo3nqtx7u.png' },
+        { name: 'Ankit Chavan', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291245/COUNCIIL/adxsv86aq2i8a9i9rc8h.png' },
+        { name: 'Shlok Kute', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735292281/COUNCIIL/qgycgquemdjptj0ko1vx.png' },
+        { name: 'Yogini Yadav', role: 'Joint Cultural Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/ycjjgqccrspctkm5ijxq.png' },
       ],
       members3: [
-        { name: 'Aditya Dandavate', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Saniya Dopavkar', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Nishigandha Sawant', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
-        { name: 'Hitesh Dubey', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
+        { name: 'Aditya Dandavate', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291247/COUNCIIL/izanqe8npnkgx30srdtl.png' },
+        { name: 'Saniya Dopavkar', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291245/COUNCIIL/yyfdm0mi6zauxgym7036.png' },
+        { name: 'Nishigandha Sawant', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/jabona1gumu7hrmis4a2.png' },
+        { name: 'Hitesh Dubey', role: 'Joint Sports Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735291246/COUNCIIL/xtywscn0iiw9cauc9mme.png' },
       ]
     },
     {
