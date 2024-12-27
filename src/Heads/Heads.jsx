@@ -483,12 +483,12 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238861/Heads/frebihotbtswenehskps.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735289975/Heads/xaor08jzrcy5q228q65h.png"
               alt="Krish Jaswal"
             />
           </div>
           <div className="t-b-text">
-            <strong>Priyesh Jogu</strong>
+            <strong>Maithili Chalke</strong>
             <span>Head</span>
           </div>
         </div>
@@ -496,26 +496,46 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735238895/Heads/odgyehjubruwco6jyixm.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735290012/Heads/yzi7hk059aspzjl0fn4q.png"
               alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Anushka Kangane</strong>
+            <strong>Varunkumar Lysetti</strong>
+            <span>Head</span>
+          </div>
+        </div>
+      </section>
+
+      <div id="nav">
+        <center>
+          <h2>HOSTING & ANCHORING</h2>
+        </center>
+      </div>
+      <section id="team">
+        <div className="team-box">
+          <div className="t-b-img">
+            <img
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735290263/Heads/ki4vfvjwriobedjagcdq.png"
+              alt="Krish Jaswal"
+            />
+          </div>
+          <div className="t-b-text">
+            <strong>Nesar Wagannawar</strong>
             <span>Head</span>
           </div>
         </div>
 
-         <div className="team-box">
+        <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735236992/Heads/w7ntwh9bjalqflxq6hit.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735290263/Heads/ki4vfvjwriobedjagcdq.png"
               alt="Miheet Shah"
             />
           </div>
           <div className="t-b-text">
-            <strong>Kunal Pingulkar</strong>
-            <span>Co-Head</span>
+            <strong>Pranav Jain</strong>
+            <span>Head</span>
           </div>
         </div>
       </section>
