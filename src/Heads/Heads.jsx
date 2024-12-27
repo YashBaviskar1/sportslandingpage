@@ -529,7 +529,7 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735290263/Heads/ki4vfvjwriobedjagcdq.png"
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735290266/Heads/tk2wwyrfn40cqoai77lg.png"
               alt="Miheet Shah"
             />
           </div>
