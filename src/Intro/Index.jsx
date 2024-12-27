@@ -133,6 +133,13 @@ const Index = () => {
                 </div>
               </div>
             </a>
+            <a>
+              <div className="card">
+                <div className="wrapper">
+                  <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735283381/Sports%20Cards/rtjdgmu94tf2jom1jbpu.png" className="cover-image" alt="Dark Rider Cover" />
+                </div>
+              </div>
+            </a>
           </div>
           {/* <div className="right">
             <p>OJUS - 2k25</p>
