@@ -145,8 +145,8 @@ const Heads = () => {
         <div className="team-box">
           <div className="t-b-img">
             <img
-              src=""
-              alt=""
+              src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735287912/Heads/wsr9kyfenxqsph3cd8na.png"
+              alt="Harsh-maurya"
             />
           </div>
           <div className="t-b-text">
