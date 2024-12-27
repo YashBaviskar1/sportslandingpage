@@ -58,7 +58,7 @@ body{
 #page1{
   width: 100%;
   height: 100%;
-  background-color: black;
+  background: url('https://res.cloudinary.com/dyhby7bo9/image/upload/v1735288244/wpz7ng0ifqlzk3gzryom.svg');
   justify-content: center;
   align-items: center;
   display: flex;
