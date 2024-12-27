@@ -12,9 +12,8 @@ import Login from './Sports/Login';
 import Schedule from "./Sports/Schedule"
 import Council from './Council/Council';
 import Heads from './Heads/Heads';
-import UnifiedContainer from './Sports/box_cricket';
 import RenderContent from './Sports/box_cricket';
-
+import UnifiedContainer from './Sports/UnifiedContainter';
 
 function App() {
   return (
@@ -28,11 +27,11 @@ function App() {
       <Route path="/schedule" exact element={<Schedule />} />
       <Route path="/council" exact element={<Council />} />
       <Route path="/heads" exact element={<Heads />} />
-      <Route path="/box-cricket" exact element={<UnifiedContainer />} />
+      {/* <Route path="/box-cricket" exact element={<UnifiedContainer />} />
       <Route path="/box-cricket/contact-us" exact element={<RenderContent />}/>
       <Route path="/box-cricket/rules" exact element={<RenderContent />}/>
-      <Route path="/box-cricket/details" exact element={<RenderContent />}/>
-
+      <Route path="/box-cricket/details" exact element={<RenderContent />}/> */}
+      <Route path="/:sport/:section" element={<UnifiedContainer />} />
 
     </Routes>
     </Router>

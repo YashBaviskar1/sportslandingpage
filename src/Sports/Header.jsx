@@ -3,6 +3,7 @@ import { Image } from "react-bootstrap";
 import logo from "../assets/logo.ico"
 import "./Header.css";
 import DropdownMenu from "./Profile";
+import Cookies from "js-cookie";
 
 import { Link } from "react-router-dom";
 
@@ -18,7 +19,13 @@ const images = [
 
 const HeroSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    const userData = Cookies.get("userData");
+    if (userData) {
+      setUser(JSON.parse(userData)); 
+    }
+  }, []);
   // Auto-advance slider
   useEffect(() => {
     const interval = setInterval(() => {
@@ -42,6 +49,16 @@ const HeroSection = () => {
     setActiveIndex(index);
   };
 
+  const handleLogout = () => {
+    // Clear cookies (assuming you're using cookies for user storage)
+    document.cookie = 'user=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+  
+    // Clear user from state
+    setUser(null);
+  
+    // Optionally navigate to the login page
+    navigate('/login');
+  };
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -59,8 +76,35 @@ const HeroSection = () => {
     <div id="home">
          <header>
         <Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} />
-        <Link to='/login' style={{backgroundColor:"white", padding:'10px  20px', borderRadius:'50px', color:'black', marginTop:"50px", textDecoration:'none'}}>Login</Link>
-       
+
+        {!user ? (
+    <Link 
+      to="/login" 
+      style={{
+        backgroundColor: "white", 
+        padding: '10px 20px', 
+        borderRadius: '50px', 
+        color: 'black', 
+        marginTop: "50px", 
+        textDecoration: 'none'
+      }}
+    >
+      Login
+    </Link>
+  ) : (
+    <span 
+      id="name" 
+      style={{
+        fontWeight: 'bold',
+        marginTop: "20px",
+        display: 'block'
+      }}
+    >
+      Hello, {user.name}
+    </span>
+  )}
+
+       <button onClick={handleLogout} >Log out</button>
         <div
         className={`hamburger1 ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
