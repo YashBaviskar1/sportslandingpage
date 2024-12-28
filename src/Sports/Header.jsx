@@ -106,12 +106,12 @@ const HeroSection = () => {
 
       {/* Full-Screen Sliding Menu */}
       <ul className={`menu1 ${menuOpen ? "open" : ""}`}>
-        <li>
-          <Link to="/events">Events</Link>
-        </li>
-        <li>
-          <Link to="/gallery">Gallery</Link>
-        </li>
+      <li>
+      <a href="#events" onClick={() => setMenuOpen(false)}>Events</a>
+    </li>
+    <li>
+    <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+    </li>  
         <li>
           <Link to="/schedule">Schedule</Link>
         </li>
