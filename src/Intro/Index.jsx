@@ -46,7 +46,8 @@ const Index = () => {
       videoElement.style.height = '100%';
       videoElement.style.objectFit = 'cover';
       videoElement.style.zIndex = '-1';
-  
+      videoElement.playsinline = true; // Prevents fullscreen on iOS
+      
       // Append the video element to the page
       page2Ref.current.appendChild(videoElement);
     }
