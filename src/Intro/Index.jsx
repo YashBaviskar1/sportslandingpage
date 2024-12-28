@@ -34,7 +34,7 @@ useEffect(() => {
       }
   
       const videoElement = document.createElement('video');
-      videoElement.src = ${bgVideo}?v=${new Date().getTime()}; // Cache-busting
+      videoElement.src = `${bgVideo}?v=${new Date().getTime()}`; // Cache-busting
       videoElement.autoplay = true;
       videoElement.loop = true;
       videoElement.muted = true;
