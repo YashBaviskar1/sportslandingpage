@@ -7,7 +7,7 @@
   background-color: #282828;
   padding: 20px;
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 8px;
@@ -498,5 +498,5 @@ p,strong{
   display: flex; /* Horizontal alignment */
   justify-content: flex-start;
   align-items: center;
-  margin-top: 15px; /* Space between register button and toggles */
+  margin-top: 15px; /* Space between register button and toggles */
 }
