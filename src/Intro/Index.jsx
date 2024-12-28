@@ -23,37 +23,34 @@ const Index = () => {
 
   useEffect(() => {
     const elems = document.querySelectorAll('.elem');
-    elems.forEach((ele) => {
-      ele.addEventListener('click', () => {
-        const bgVideo = ele.getAttribute('data-video');
-        const existingVideo = page2Ref.current.querySelector('video');
-
-        // Remove existing video if present
-        if (existingVideo) {
-          existingVideo.remove();
-        }
-
-        if (bgVideo) {
-          // Create a video element and set attributes
-          const videoElement = document.createElement('video');
-          videoElement.src = bgVideo;
-          videoElement.autoplay = true;
-          videoElement.loop = true;
-          videoElement.muted = true;
-          videoElement.style.position = 'absolute';
-          videoElement.style.top = '0';
-          videoElement.style.left = '0';
-          videoElement.style.width = '100%';
-          videoElement.style.height = '100%';
-          videoElement.style.objectFit = 'cover';
-          videoElement.style.zIndex = '-1';
-
-          page2Ref.current.appendChild(videoElement);
-        }
-      });
-    });
+    const firstElem = elems[0]; // Assuming you want the first element to autoplay its video
+    const bgVideo = firstElem.getAttribute('data-video');
+  
+    if (bgVideo && page2Ref.current) {
+      // Remove existing video if present
+      const existingVideo = page2Ref.current.querySelector('video');
+      if (existingVideo) {
+        existingVideo.remove();
+      }
+  
+      // Create a video element and set attributes
+      const videoElement = document.createElement('video');
+      videoElement.src = bgVideo;
+      videoElement.autoplay = true;
+      videoElement.loop = true;
+      videoElement.muted = true; // Ensure it's muted for autoplay
+      videoElement.style.position = 'absolute';
+      videoElement.style.top = '0';
+      videoElement.style.left = '0';
+      videoElement.style.width = '100%';
+      videoElement.style.height = '100%';
+      videoElement.style.objectFit = 'cover';
+      videoElement.style.zIndex = '-1';
+  
+      // Append the video element to the page
+      page2Ref.current.appendChild(videoElement);
+    }
   }, []);
-
   const handleSliderClick = (index) => {
     setActiveSlider(index);
   };
