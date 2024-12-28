@@ -88,7 +88,7 @@ sports_data = {
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/ovq0bges1np1dnca897p.png"
     },
-    "dogeball(girls)": {
+    "dodgeball(girls)": {
         "details": {
             "date": "04/1/2025",
             "info": "info about sports",
@@ -104,7 +104,7 @@ sports_data = {
             "volunteer": "Ujala Thakur",
             "volunteer_mobile_no": "7209235302"
         },
-        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146453/Sports%20Cards/ytdxxgtwlkwefw8sxcto.png"
+        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395935/DODGE_BALL_uxorl7.png"
     },
 "volleyball(boys)": {
         "details": {
@@ -178,7 +178,7 @@ sports_data = {
             "volunteer": "Shivam Patil,Sojal Gaikwad",
             "volunteer_mobile_no": "7058221605,7718066160"
         },
-        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146456/Sports%20Cards/t1rh4f3nvfo4fbrcuotf.png"
+        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395921/19_aulns8.png"
     },
     "kabbadi(boys)": {
         "details": {
@@ -203,7 +203,7 @@ sports_data = {
             "volunteer": "Shivam Patil,Sojal Gaikwad",
             "volunteer_mobile_no": "7058221605,7718066160"
         },
-        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146456/Sports%20Cards/t1rh4f3nvfo4fbrcuotf.png"
+        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395921/18_sxn1t6.png"
     },
     "box-cricket(girls)": {
         "details": {
@@ -229,7 +229,7 @@ sports_data = {
             "volunteer": "Arpit Chopda",
             "volunteer_mobile_no": "9022331132"
         },
-        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146427/Sports%20Cards/o1kme3ejcdfedhnkyjfx.png"
+        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395931/BOX_CRICKET_2_pfr0p9.png"
     },
         "box-cricket(boys)": {
         "details": {
