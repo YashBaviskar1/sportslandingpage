@@ -21,37 +21,35 @@ const Index = () => {
   const page2Ref = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
+   useEffect(() => {
     const elems = document.querySelectorAll('.elem');
-    elems.forEach((ele) => {
-      ele.addEventListener('click', () => {
-        const bgVideo = ele.getAttribute('data-video');
-        const existingVideo = page2Ref.current.querySelector('video');
-
-        // Remove existing video if present
-        if (existingVideo) {
-          existingVideo.remove();
-        }
-
-        if (bgVideo) {
-          // Create a video element and set attributes
-          const videoElement = document.createElement('video');
-          videoElement.src = bgVideo;
-          videoElement.autoplay = true;
-          videoElement.loop = true;
-          videoElement.muted = true;
-          videoElement.style.position = 'absolute';
-          videoElement.style.top = '0';
-          videoElement.style.left = '0';
-          videoElement.style.width = '100%';
-          videoElement.style.height = '100%';
-          videoElement.style.objectFit = 'cover';
-          videoElement.style.zIndex = '-1';
-
-          page2Ref.current.appendChild(videoElement);
-        }
-      });
-    });
+    const firstElem = elems[0]; // Assuming you want the first element to autoplay its video
+    const bgVideo = firstElem.getAttribute('data-video');
+  
+    if (bgVideo && page2Ref.current) {
+      // Remove existing video if present
+      const existingVideo = page2Ref.current.querySelector('video');
+      if (existingVideo) {
+        existingVideo.remove();
+      }
+  
+      // Create a video element and set attributes
+      const videoElement = document.createElement('video');
+      videoElement.src = bgVideo;
+      videoElement.autoplay = true;
+      videoElement.loop = true;
+      videoElement.muted = true; // Ensure it's muted for autoplay
+      videoElement.style.position = 'absolute';
+      videoElement.style.top = '0';
+      videoElement.style.left = '0';
+      videoElement.style.width = '100%';
+      videoElement.style.height = '100%';
+      videoElement.style.objectFit = 'cover';
+      videoElement.style.zIndex = '-1';
+  
+      // Append the video element to the page
+      page2Ref.current.appendChild(videoElement);
+    }
   }, []);
 
   const handleSliderClick = (index) => {
@@ -150,7 +148,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div id="page2" ref={page2Ref}>
+<div id="page2" ref={page2Ref}>
 {/*         <div className="elem">
           <h2>Festivals</h2>
           <div className="moving">
@@ -163,6 +161,10 @@ const Index = () => {
 
         <div className="elem" data-video="https://res.cloudinary.com/dyhby7bo9/video/upload/v1735339641/u5sbqiadvdhqs4u34tey.mp4">
           <h2>Sports</h2>
+        </div>
+        <div className="elem">
+          <h2>Culturals</h2>
+          <h6>Coming Soon</h6>
         </div>
 
 {/*         <div className="elem" data-video={video}>
