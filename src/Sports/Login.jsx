@@ -98,10 +98,11 @@ const Login = () => {
             <input
               type="password"
               name="password"
-              placeholder="Password : FIRSTNAME@moodle_id"
+              placeholder="Password"
               value={formData.password}
               onChange={handleChange}
             />
+            <span>Password: FIRSTNAME@moodle_id</span>
           </div>
           <div className="inputBx">
             <input
