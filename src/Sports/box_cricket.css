@@ -387,7 +387,7 @@ p,strong{
 
   /* Content box adjustments */
   .content-box {
-    width: 90%; /* Reduce width for smaller screens */
+    width: 100%; /* Reduce width for smaller screens */
     padding: 15px;
   }
 
