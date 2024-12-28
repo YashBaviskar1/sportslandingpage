@@ -48,7 +48,7 @@ function UnifiedContainer() {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/sports/${sport}/${section}`);
+        const response = await fetch(`/api/sports/${sport}/${section}`);
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
@@ -68,7 +68,7 @@ function UnifiedContainer() {
       sport,
     };
     try {
-      const response = await fetch('http://127.0.0.1:5000/register', {
+      const response = await fetch('/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
