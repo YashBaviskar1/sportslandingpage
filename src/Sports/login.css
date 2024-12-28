@@ -190,4 +190,11 @@
       margin-top: 8px;
     }
   }
+
+.inputBx span{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  opacity: 0.6;
+}
   
