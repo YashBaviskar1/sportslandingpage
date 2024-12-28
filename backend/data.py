@@ -213,7 +213,7 @@ sports_data = {
             "venue": "College"
         },
         "rules": {
-            "team": " players playing + 3substitute. ",
+            "team": " 7 players + 3 substitute. ",
             "rules" : 
             """
             3-over match (1+1+1). 
@@ -239,7 +239,7 @@ sports_data = {
             "venue": "College"
         },
         "rules": {
-            "team": " players playing + 3substitute. ",
+            "team": " 7 players + 3 substitute. ",
             "rules" : 
             """
             3-over match (1+1+1). 
