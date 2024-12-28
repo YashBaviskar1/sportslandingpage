@@ -6,8 +6,8 @@ import {
   Routes
 } from "react-router-dom";
 import Sports from './Sports/Sports';
-import Cultural from './Cultural/Cultural';
-import Events from './Cultural/Events';
+// import Cultural from './Cultural/Cultural';
+// import Events from './Cultural/Events';
 import Login from './Sports/Login';
 import Schedule from "./Sports/Schedule"
 import Council from './Council/Council';
@@ -22,8 +22,8 @@ function App() {
     <Routes>
       <Route path="/" exact element={<Index/>} />
       <Route path="/sports" exact element={<Sports />} />
-      <Route path="/cultural" exact element={<Cultural />} />
-      <Route path="/events" exact element={<Events />} />
+{/*       <Route path="/cultural" exact element={<Cultural />} /> */}
+{/*       <Route path="/events" exact element={<Events />} /> */}
       <Route path="/login" exact element={<Login />} />
       <Route path="/schedule" exact element={<Schedule />} />
       <Route path="/council" exact element={<Council />} />
