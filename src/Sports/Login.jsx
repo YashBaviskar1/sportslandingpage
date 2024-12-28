@@ -7,7 +7,6 @@ const Login = () => {
       <i style={{ "--clr": "#00ff0a" }}></i>
       <i style={{ "--clr": "#ff0057" }}></i>
       <i style={{ "--clr": "#fffd44" }}></i>
-      <i style={{ "--clr": "#fff" }}></i>  
       <div className="login">
         <h2>Login</h2>
         <div className="inputBx">
