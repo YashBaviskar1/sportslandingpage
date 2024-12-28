@@ -58,7 +58,7 @@ const HeroSection = () => {
     <>
     <div id="home">
          <header>
-        <a href='/'><Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} /><a></a>
+        <a href='/'><Image src={logo} width={90} height={90} style={{ marginTop: "50px" }} /></a>
         <Link to='/login' style={{backgroundColor:"white", padding:'10px  20px', borderRadius:'50px', color:'black', marginTop:"50px", textDecoration:'none'}}>Login</Link>
        
         <div
