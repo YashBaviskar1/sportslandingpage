@@ -341,7 +341,7 @@ sports_data = {
     },
     "badminton_doubles(boys)": {
         "details": {
-            "date": "3/1/2425",
+            "date": "3/1/2025",
             "info": "info about sports",
             "duration": "8:30am onwards",
             "venue": "College Ground"
@@ -369,7 +369,7 @@ sports_data = {
     },
         "badminton_doubles(girls)": {
         "details": {
-            "date": "3/1/2425",
+            "date": "3/1/2025",
             "info": "info about sports",
             "duration": "8:30am onwards",
             "venue": "College Ground"
