@@ -1,4 +1,9 @@
 /* Main container for the single unified layout */
+
+li {
+  color : black;
+}
+
 .single-container {
   display: flex;
   flex-direction: column;
