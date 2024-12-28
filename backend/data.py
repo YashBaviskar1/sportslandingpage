@@ -3,7 +3,7 @@ sports_data = {
         "details": {
             "date": "30/12/2024",
             "info": "info about sports",
-            "duration": "To be decided",
+            "duration": "8:30 onwards",
             "venue": "TMC Ground"
         },
         "rules": {
@@ -32,31 +32,53 @@ sports_data = {
     },
     "tug-of-war(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "30/12/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "To be decided"
+            "duration": "8:30 onwards",
+            "venue": "TMC ground"
         },
         "rules": {
-            "team": "6-8 players per side"
+            "team": "7 Players Playing + 3 Substitutes",
+                        "rules" : 
+            """
+                8 minutes half will be played.
+                In case of a draw, the match will be decided on penalties.
+                Referee’s decision will be final.
+                In Case Of Misbehaving, The Team Will Be Disqualified.
+                Rule for YELLOW CARD: - 2 yellow cards will be allowed for individual player
+                which won’t be carried to the next match.
+                Rule for RED CARD: - if a player gets a red card in the match HE will be banned for the 
+                next ONE match only.
+            """
         },
         "contact": {
             "head": "Harshal Patil",
             "head_mobile_no": "9767205460",
-            "volunteer": "Rishab Mishra,Shailesh Mittapelli",
-            "volunteer_mobile_no": "9167991241,9970752318"
+            "volunteer": "Rishab Mishra , Shailesh Mittapelli",
+            "volunteer_mobile_no": "9167991241 , 9970752318"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146447/Sports%20Cards/p2y8ossamjl8j3qnzbsr.png"
     },
     "football(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "31/12/2024",
             "info": "info about sports",
-            "duration": "90 minutes",
-            "venue": "Main Ground"
+            "duration": "8:30 onwards",
+            "venue": "TMC Ground"
         },
         "rules": {
-            "team": "11 players per side"
+            "team": "7 Players Playing + 3 Substitutes",
+            "rules" : 
+            """
+            8 minutes half will be played.
+            In case of a draw, the match will be decided on penalties.
+            Referee’s decision will be final.
+            In Case Of Misbehaving, The Team Will Be Disqualified.
+            Rule for YELLOW CARD: - 2 yellow cards will be allowed for individual player
+            which won’t be carried to the next match.
+            Rule for RED CARD: - if a player gets a red card in the match HE will be banned for the 
+            next ONE match only
+            """
         },
         "contact": {
             "head": "Vivek Behra",
@@ -68,7 +90,7 @@ sports_data = {
     },
     "dogeball(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "04/1/2025",
             "info": "info about sports",
             "duration": "To be decided",
             "venue": "Indoor Court"
@@ -86,13 +108,19 @@ sports_data = {
     },
 "volleyball(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "31/12/24",
             "info": "info about sports",
-            "duration": "Best of 5 sets",
-            "venue": "Volleyball Court"
+            "duration": "8:30am onwards",
+            "venue": "TMC Ground"
         },
         "rules": {
-            "team": "6 players per side"
+            "team": "6 players playing + 3 substitute. ",
+            "rules" : 
+            """
+             3 sets - 11 points per set. 
+             In case of misbehaving, the team will be disqualified. 
+             Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Aditi Panchpor",
@@ -104,13 +132,20 @@ sports_data = {
     },
     "tug-of-war(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "31/12/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Ground Area"
+            "duration": "9:00am onwards",
+            "venue": "TMC Ground"
         },
         "rules": {
-            "team": "6-8 players per side"
+            "team": "6-8 players per side",
+            "rules" : 
+            """
+            Only one pole is allowed. 
+            Gloves and handkerchiefs are not allowed. 
+            Attention to Whistle is very Important 
+            Referee’s Decision will be FINAL.
+            """
         },
   "contact": {
             "head": "Harshal Patil",
@@ -122,13 +157,20 @@ sports_data = {
     },
     "kabbadi(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "02/1/2025",
             "info": "info about sports",
-            "duration": "40 minutes",
-            "venue": "Kabbadi Court"
+            "duration": "9:00am onwards",
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "7 players per side"
+            "team": "7 players per side",
+            "rules" : 
+            """
+            7 minutes half will be played. 
+            First RAID will be Decided on TOSS. 
+            Referee’s decision will be final. 
+            In Case Of Misbehaving, The Team Will Be Disqualified.
+            """
         },
         "contact": {
             "head": "Pratik Patil",
@@ -140,13 +182,20 @@ sports_data = {
     },
     "kabbadi(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "02/1/2025",
             "info": "info about sports",
             "duration": "40 minutes",
-            "venue": "Kabbadi Court"
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "7 players per side"
+            "team": "7 players per side",
+            "rules" : 
+            """
+            7 minutes half will be played. 
+            First RAID will be Decided on TOSS. 
+            Referee’s decision will be final. 
+            In Case Of Misbehaving, The Team Will Be Disqualified.
+            """
         },
  "contact": {
             "head": "Pratik Patil",
@@ -158,13 +207,20 @@ sports_data = {
     },
     "box-cricket(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "02/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Ground Floor"
+            "duration": "8:30am onwards",
+            "venue": "College"
         },
         "rules": {
-            "team": "6 players per side"
+            "team": " players playing + 3substitute. ",
+            "rules" : 
+            """
+            3-over match (1+1+1). 
+            1 run for No ball and wide ball. 
+            Remaining important rules will be explained on the Ground. 
+            Referee’s Decision will be FINAL.
+            """
 
         },
         "contact": {
@@ -177,13 +233,21 @@ sports_data = {
     },
         "box-cricket(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "04/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Ground Floor"
+            "duration": "8:30am onwards",
+            "venue": "College"
         },
         "rules": {
-            "team": "6 players per side"
+            "team": " players playing + 3substitute. ",
+            "rules" : 
+            """
+            3-over match (1+1+1). 
+            1 run for No ball and wide ball. 
+            Remaining important rules will be explained on the Ground. 
+            Referee’s Decision will be FINAL.
+            """
+
         },
               "contact": {
             "head": "Lucky Sharma",
@@ -195,13 +259,21 @@ sports_data = {
     },
     "throwball(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "31/12/2024",
             "info": "info about sports",
-            "duration": "Best of 5 sets",
-            "venue": "Throwball Court"
+            "duration": "9:00 am onwards",
+            "venue": "FlagPost Area"
         },
         "rules": {
-            "team": "6 players per side"
+            "team": "6 players playing + 3 substitute",
+            "rules" : 
+            """
+            11 points game. 
+            Semi-Final will be played of 11points. 
+            Final will be of 3 sets (11 points each). 
+            In case of misbehaving, the team will be disqualified. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Asmita Yadav",
@@ -213,13 +285,23 @@ sports_data = {
     },
     "badminton_singles(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2425",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "8:30am onwards",
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Single Player",
+            "rules" : 
+            """
+            Knockouts will be scheduled before the main events. 
+            Winners from the knockouts will play on the main event day. 
+            7 points game. 
+            Semi-Final will be of 3 sets (7 point each). 
+            Final will be of 3set (15 point each). 
+            Rackets will not be provided by college. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
@@ -231,13 +313,23 @@ sports_data = {
     },
     "badminton_singles(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2425",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "8:30am onwards",
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Single Player",
+            "rules" : 
+            """
+            Knockouts will be scheduled before the main events. 
+            Winners from the knockouts will play on the main event day. 
+            7 points game. 
+            Semi-Final will be of 3 sets (7 point each). 
+            Final will be of 3set (15 point each). 
+            Rackets will not be provided by college. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
@@ -249,13 +341,23 @@ sports_data = {
     },
     "badminton_doubles(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2425",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "8:30am onwards",
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two Players",
+            "rules" : 
+            """
+            Knockouts will be scheduled before the main events. 
+            Winners from the knockouts will play on the main event day. 
+            7 points game. 
+            Semi-Final will be of 3 sets (7 point each). 
+            Final will be of 3set (15 point each). 
+            Rackets will not be provided by college. 
+            Referee’s Decision will be FINAL.
+            """
         },
               "contact": {
             "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
@@ -267,13 +369,23 @@ sports_data = {
     },
         "badminton_doubles(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2425",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "8:30am onwards",
+            "venue": "College Ground"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two Players",
+            "rules" : 
+            """
+            Knockouts will be scheduled before the main events. 
+            Winners from the knockouts will play on the main event day. 
+            7 points game. 
+            Semi-Final will be of 3 sets (7 point each). 
+            Final will be of 3set (15 point each). 
+            Rackets will not be provided by college. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
@@ -285,13 +397,22 @@ sports_data = {
     },
         "table-tennis-singles(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "03/1/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "10:00am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Single player",
+            "rules" : 
+            """
+            Serve will be decided on toss.
+            Elimination rounds will be of one game.
+            Semi-Final and final will of 3 sets.
+            Refree's decision will be final
+            
+            """
+
         },
         "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -303,13 +424,22 @@ sports_data = {
     },
     "table-tennis-singles(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "03/1/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "10:00am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Single player",
+            "rules" : 
+            """
+            Serve will be decided on toss.
+            Elimination rounds will be of one game.
+            Semi-Final and final will of 3 sets.
+            Refree's decision will be final
+            
+            """
+
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -321,13 +451,22 @@ sports_data = {
     },
     "table-tennis-doubles(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "03/1/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "10:00am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two players",
+            "rules" : 
+            """
+            Serve will be decided on toss.
+            Elimination rounds will be of one game.
+            Semi-Final and final will of 3 sets.
+            Refree's decision will be final
+            
+            """
+
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -339,13 +478,22 @@ sports_data = {
     },
         "table-tennis-doubles(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "03/1/2024",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "10:00am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two players",
+            "rules" : 
+            """
+            Serve will be decided on toss.
+            Elimination rounds will be of one game.
+            Semi-Final and final will of 3 sets.
+            Refree's decision will be final
+            
+            """
+
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -357,14 +505,20 @@ sports_data = {
     },
     "chess(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            
-            "venue": "Chess Hall"
+            "duration": "10am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "Individual"
+            "team": "Individual",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Rishikesh",
@@ -373,17 +527,50 @@ sports_data = {
             "volunteer_mobile_no": "7715078892"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114067/OJUSPHOTOS/ezhcy7gjx1kurg34lwj5.png"
-    },
+    }, 
 
-            "carrom_singles(boys)": {
+    "chess(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "3/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "10am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Individual",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
+        },
+        "contact": {
+            "head": "Rishikesh",
+            "head_mobile_no": "7498978632",
+            "volunteer": "Adarsh",
+            "volunteer_mobile_no": "7715078892"
+        },
+        "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114067/OJUSPHOTOS/ezhcy7gjx1kurg34lwj5.png"
+    }, 
+
+    "carrom_singles(boys)": {
+        "details": {
+            "date": "04/1/2025",
+            "info": "info about sports",
+            "duration": "9am onwards",
+            "venue": "In College"
+        },
+        "rules": {
+            "team": "Single player",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
         },
         "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -393,15 +580,22 @@ sports_data = {
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/duztbixbj8tgdmnhxfw8.png"
     },
-    "carrom_singles(girls)": {
+    "carrom_singles(girls)":{
         "details": {
-            "date": "To be decided",
+            "date": "04/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "9am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "Single player"
+            "team": "Single player",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -413,13 +607,20 @@ sports_data = {
     },
     "carrom_doubles(boys)": {
         "details": {
-            "date": "To be decided",
+            "date": "04/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "9am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two players",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
@@ -431,13 +632,20 @@ sports_data = {
     },
         "carrom_doubles(girls)": {
         "details": {
-            "date": "To be decided",
+            "date": "04/1/2025",
             "info": "info about sports",
-            "duration": "To be decided",
-            "venue": "Indoor Court"
+            "duration": "9am onwards",
+            "venue": "In College"
         },
         "rules": {
-            "team": "2 players per side"
+            "team": "Two players",
+            "rules" : 
+            """
+            Match will be of 6 minutes. 
+            Final will be of 10 minutes. 
+            Points will be explained by co-ordinators. 
+            Referee’s Decision will be FINAL.
+            """
         },
    "contact": {
             "head": "Aryan Ghawali,Divya Keni",
