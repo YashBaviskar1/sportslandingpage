@@ -40,7 +40,7 @@ const Login = () => {
     setLoading(true);
     setError("");
 
-    const url = "http://127.0.0.1:5000/validation";
+    const url = "/api/validation";
     const options = {
       method: "POST",
       headers: {
