@@ -305,9 +305,9 @@ sports_data = {
         },
         "contact": {
             "head": "Manthan More , Sandesh Sarode , Aditi Gujjar",
-            "head_mobile_no": "9320005645 , 8850409126 , 7506987083",
+            "head_mobile_no": "93200 05645 , 88504 09126 , 75069 87083",
             "volunteer": "Unnati Jain , Karan Vethody , Jay Patil , Pranav Sathe",
-            "volunteer_mobile_no": "7020834048 , 8850106942 , 9106311774"
+            "volunteer_mobile_no": "70208 34048 , 88501 06942 , 910631 1774"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png"
     },
