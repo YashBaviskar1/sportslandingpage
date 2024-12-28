@@ -24,11 +24,13 @@ const Login = () => {
     console.log("Cookie Data:", JSON.parse(data));
   };
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
+const handleChange = (e) => {
+  const { name, value } = e.target;
+  setFormData({
+    ...formData,
+    [name]: name === "password" ? value.toUpperCase() : value
+  });
+};
   const handleSubmit = async (e) => {
     e.preventDefault();
 
