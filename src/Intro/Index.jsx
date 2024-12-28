@@ -21,24 +21,25 @@ const Index = () => {
   const page2Ref = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-   useEffect(() => {
+useEffect(() => {
     const elems = document.querySelectorAll('.elem');
-    const firstElem = elems[0]; // Assuming you want the first element to autoplay its video
+    const firstElem = elems[0];
     const bgVideo = firstElem.getAttribute('data-video');
   
     if (bgVideo && page2Ref.current) {
-      // Remove existing video if present
       const existingVideo = page2Ref.current.querySelector('video');
       if (existingVideo) {
+        existingVideo.pause();
         existingVideo.remove();
       }
   
-      // Create a video element and set attributes
       const videoElement = document.createElement('video');
-      videoElement.src = bgVideo;
+      videoElement.src = ${bgVideo}?v=${new Date().getTime()}; // Cache-busting
       videoElement.autoplay = true;
       videoElement.loop = true;
-      videoElement.muted = true; // Ensure it's muted for autoplay
+      videoElement.muted = true;
+      videoElement.setAttribute('playsinline', true);
+      videoElement.setAttribute('preload', 'auto');
       videoElement.style.position = 'absolute';
       videoElement.style.top = '0';
       videoElement.style.left = '0';
@@ -46,12 +47,16 @@ const Index = () => {
       videoElement.style.height = '100%';
       videoElement.style.objectFit = 'cover';
       videoElement.style.zIndex = '-1';
-      videoElement.playsinline = true; // Prevents fullscreen on iOS
-      
-      // Append the video element to the page
+  
+      videoElement.addEventListener('canplay', () => {
+        videoElement.play().catch(() => {
+          console.error('Autoplay blocked');
+        });
+      });
+  
       page2Ref.current.appendChild(videoElement);
-    }
-  }, []);
+    }
+  }, []);
 
   const handleSliderClick = (index) => {
     setActiveSlider(index);
