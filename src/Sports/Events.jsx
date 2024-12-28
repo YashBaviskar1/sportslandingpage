@@ -59,7 +59,7 @@ const Events = () => {
         {selectedDay === 'day4' && (
           <div>
             <Link to="/badminton_singles(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395931/BOX_CRICKET_2_pfr0p9.png" alt="Badminton" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png" alt="Badminton" />
             </Link>
             <Link to="/table-tennis-singles(boys)/details">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/ha7skdj9mrrfh1gujwei.png" alt="Table Tennis" />
