@@ -257,6 +257,9 @@ div .image{
 }
 .elem:hover h2{
   font-style: italic;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes moving {
