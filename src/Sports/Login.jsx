@@ -7,13 +7,15 @@ const Login = () => {
       <i style={{ "--clr": "#00ff0a" }}></i>
       <i style={{ "--clr": "#ff0057" }}></i>
       <i style={{ "--clr": "#fffd44" }}></i>
+      <i style={{ "--clr": "#fff" }}></i>  
       <div className="login">
         <h2>Login</h2>
         <div className="inputBx">
           <input type="text" placeholder="Moodle ID" />
         </div>
         <div className="inputBx">
-          <input type="password" placeholder="Password : FIRSTNAME@moodle_id" />
+          <input type="password" placeholder="Password" />
+          <span>Password: FIRSTNAME@moodle_id</span>
         </div>
         <div className="inputBx">
           <input type="email" placeholder="Email" />
