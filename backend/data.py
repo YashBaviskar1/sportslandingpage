@@ -285,7 +285,7 @@ sports_data = {
     },
     "badminton_singles(boys)": {
         "details": {
-            "date": "3/1/2425",
+            "date": "3/1/2025",
             "info": "info about sports",
             "duration": "8:30am onwards",
             "venue": "College Ground"
@@ -313,7 +313,7 @@ sports_data = {
     },
     "badminton_singles(girls)": {
         "details": {
-            "date": "3/1/2425",
+            "date": "3/1/2025",
             "info": "info about sports",
             "duration": "8:30am onwards",
             "venue": "College Ground"
@@ -332,10 +332,10 @@ sports_data = {
             """
         },
         "contact": {
-            "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
-            "head_mobile_no": "9320005645,8850409126,7506987083",
-            "volunteer": "Unnati Jain,Karan Vethody,Jay Patil,Pranav Sathe",
-            "volunteer_mobile_no": "7020834048,8850106942,9106311774"
+            "head": "Manthan More , Sandesh Sarode , Aditi Gujjar",
+            "head_mobile_no": "9320005645 , 8850409126 , 7506987083",
+            "volunteer": "Unnati Jain , Karan Vethody , Jay Patil , Pranav Sathe",
+            "volunteer_mobile_no": "7020834048 , 8850106942 , 9106311774"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png"
     },
@@ -359,11 +359,11 @@ sports_data = {
             Referee’s Decision will be FINAL.
             """
         },
-              "contact": {
-            "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
-            "head_mobile_no": "9320005645,8850409126,7506987083",
-            "volunteer": "Unnati Jain,Karan Vethody,Jay Patil,Pranav Sathe",
-            "volunteer_mobile_no": "7020834048,8850106942,9106311774"
+        "contact": {
+            "head": "Manthan More , Sandesh Sarode , Aditi Gujjar",
+            "head_mobile_no": "9320005645 , 8850409126 , 7506987083",
+            "volunteer": "Unnati Jain , Karan Vethody , Jay Patil , Pranav Sathe",
+            "volunteer_mobile_no": "7020834048 , 8850106942 , 9106311774"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png"
     },
@@ -388,10 +388,10 @@ sports_data = {
             """
         },
         "contact": {
-            "head": "Manthan More,Sandesh Sarode,Aditi Gujjar",
-            "head_mobile_no": "9320005645,8850409126,7506987083",
-            "volunteer": "Unnati Jain,Karan Vethody,Jay Patil,Pranav Sathe",
-            "volunteer_mobile_no": "7020834048,8850106942,9106311774"
+            "head": "Manthan More , Sandesh Sarode , Aditi Gujjar",
+            "head_mobile_no": "9320005645 , 8850409126 , 7506987083",
+            "volunteer": "Unnati Jain , Karan Vethody , Jay Patil , Pranav Sathe",
+            "volunteer_mobile_no": "7020834048 , 8850106942 , 9106311774"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1734699263/OJUSPHOTOS/tv4uivtvvrr5ipzcc7nc.png"
     },
@@ -415,10 +415,10 @@ sports_data = {
 
         },
         "contact": {
-            "head": "Aryan Ghawali,Divya Keni",
-            "head_mobile_no": "7304372657,9324547628",
-            "volunteer": "Volunteer Name",
-            "volunteer_mobile_no": "0000000000"
+            "head": "Aryan Ghawali , Divya Keni",
+            "head_mobile_no": "7304372657 , 9324547628",
+            # "volunteer": "Volunteer Name",
+            # "volunteer_mobile_no": "0000000000"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114043/OJUSPHOTOS/gp0dmtn5dsddcllhedm9.png"
     },
@@ -442,10 +442,10 @@ sports_data = {
 
         },
    "contact": {
-            "head": "Aryan Ghawali,Divya Keni",
-            "head_mobile_no": "7304372657,9324547628",
-            "volunteer": "Volunteer Name",
-            "volunteer_mobile_no": "0000000000"
+            "head": "Aryan Ghawali , Divya Keni",
+            "head_mobile_no": "7304372657 , 9324547628",
+            # "volunteer": "Volunteer Name",
+            # "volunteer_mobile_no": "0000000000"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114043/OJUSPHOTOS/gp0dmtn5dsddcllhedm9.png"
     },
@@ -469,10 +469,10 @@ sports_data = {
 
         },
    "contact": {
-            "head": "Aryan Ghawali,Divya Keni",
-            "head_mobile_no": "7304372657,9324547628",
-            "volunteer": "Volunteer Name",
-            "volunteer_mobile_no": "0000000000"
+            "head": "Aryan Ghawali , Divya Keni",
+            "head_mobile_no": "7304372657 , 9324547628",
+            # "volunteer": "Volunteer Name",
+            # "volunteer_mobile_no": "0000000000"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114043/OJUSPHOTOS/gp0dmtn5dsddcllhedm9.png"
     },
@@ -496,10 +496,10 @@ sports_data = {
 
         },
    "contact": {
-            "head": "Aryan Ghawali,Divya Keni",
-            "head_mobile_no": "7304372657,9324547628",
-            "volunteer": "Volunteer Name",
-            "volunteer_mobile_no": "0000000000"
+            "head": "Aryan Ghawali , Divya Keni",
+            "head_mobile_no": "7304372657 , 9324547628",
+            # "volunteer": "Volunteer Name",
+            # "volunteer_mobile_no": "0000000000"
         },
         "logo" : "https://res.cloudinary.com/dyhby7bo9/image/upload/v1735114043/OJUSPHOTOS/gp0dmtn5dsddcllhedm9.png"
     },
