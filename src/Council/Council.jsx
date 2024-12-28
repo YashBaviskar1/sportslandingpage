@@ -42,12 +42,12 @@ const Council = () => {
     {
       year: '2023',
       members: [
-        { name: 'Aarav Gupta', role: 'Head', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
-        { name: 'Ishita Sharma', role: 'Co-Head', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
+        { name: 'Anuj Shinde', role: 'President', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735379190/Anuj_shinde_president-removebg-preview_h8yhku.png' },
+        { name: 'Anirudh', role: 'General Secretary', image: 'https://res.cloudinary.com/dyhby7bo9/image/upload/v1735379190/Anirudh_general_secretary_-removebg-preview_yqapzq.png' },
         
       ],
       members1: [
-        { name: 'Dravesh Jain', role: 'Co-Head', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
+        { name: 'Dravesh Jain', role: 'Cultural Secretary', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330583/heads/dravesh_t2wcfu.png' },
         { name: 'Rohan Mehta', role: 'Co-Head', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
         { name: 'Rohan Mehta', role: 'Co-Head', image: 'https://res.cloudinary.com/dkx1049fl/image/upload/v1707330584/heads/krish_vrpnwb.png' },
       ],
