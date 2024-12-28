@@ -543,7 +543,7 @@ const Heads = () => {
       {/* Footer */}
       <section className="madeWithLove">
         <h5>
-          Made with ❤️ by <a href="/team">Ojus Webdev</a>
+          Made with ❤️ by <a href="https://ojus-web-dev.vercel.app/">Ojus Webdev</a>
         </h5>
       </section>
 
