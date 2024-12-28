@@ -26,7 +26,11 @@ const Sports = () => {
         <h1 data-aos="zoom-in" id='gallery'className='headingCenter'>Gallery</h1>
         <Gallery/>
       </div> 
-      <Footer></Footer>
+      <section className="madeWithLove">
+        <h5>
+          Made with ❤️ by <a href="https://ojus-web-dev.vercel.app/">Ojus Webdev</a>
+        </h5>
+      </section>
     </div>
     </div>
     </>
