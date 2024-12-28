@@ -161,6 +161,9 @@ const Index = () => {
         <div className="elem" data-video={video}>
           <h2>Sports</h2>
         </div>
+        <div className="elem">
+          <h2>Cultural (Coming Soon)</h2>
+        </div>
 
 {/*         <div className="elem" data-video={video}>
           <h2>Cultural</h2>
