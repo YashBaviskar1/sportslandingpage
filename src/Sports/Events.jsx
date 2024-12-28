@@ -22,34 +22,34 @@ const Events = () => {
         {selectedDay === 'day1' && (
           <div>
             <Link to="/overarm-cricket(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146448/Sports%20Cards/r6oetkincye0kvrdangh.png" alt="Cricket" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395931/CRICKET_cwnhb7.png" alt="Cricket" />
             </Link>
             
             <Link to="/tug-of-war(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146448/Sports%20Cards/vsonutvwtebqpgmkvcnp.png" alt="Tug of War" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395938/16_tl1olq.png" alt="Tug of War" />
             </Link>
           </div>
         )}
         {selectedDay === 'day2' && (
           <div>
             <Link to="/football(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/ovq0bges1np1dnca897p.png" alt="Football(Boys)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395937/FOOTBALL_bttcsu.png" alt="Football(Boys)" />
             </Link>
             <Link to="/throwball(girls)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146437/Sports%20Cards/jcxlnfqmtiq1tocx0pxz.png" alt="Throwball(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395942/THROWBALL_ohm9lb.png" alt="Throwball(Girls)" />
             </Link>
             <Link to="/volleyball(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146447/Sports%20Cards/nvoqitpvxgv7ix9zsrgp.png" alt="Volleyball(Boys)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395945/VOLLEYBALL_xyhitw.png" alt="Volleyball(Boys)" />
             </Link>
             <Link to="/tug-of-war(girls)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146451/Sports%20Cards/l5z7ffh94kp6ag9estzq.png" alt="Tug of War(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395919/17_e8xti1.png" alt="Tug of War(Girls)" />
             </Link>
           </div>
         )}
         {selectedDay === 'day3' && (
           <div>
             <Link to="/kabbadi(girls)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146456/Sports%20Cards/t1rh4f3nvfo4fbrcuotf.png" alt="Kabbadi" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735322455/New%20Sports%20Card/rpdabafu34vlkdqjdbbv.png" alt="Kabbadi" />
             </Link>
             <Link to="/box-cricket(girls)/details">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146427/Sports%20Cards/o1kme3ejcdfedhnkyjfx.png" alt="Box-Cricket(Girls)" />
@@ -59,7 +59,7 @@ const Events = () => {
         {selectedDay === 'day4' && (
           <div>
             <Link to="/badminton_singles(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735281920/Sports%20Cards/nmpauqef7t2gpdirvlyk.png " alt="Badminton" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395931/BOX_CRICKET_2_pfr0p9.png" alt="Badminton" />
             </Link>
             <Link to="/table-tennis-singles(boys)/details">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/ha7skdj9mrrfh1gujwei.png" alt="Table Tennis" />
@@ -75,10 +75,10 @@ const Events = () => {
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146430/Sports%20Cards/duztbixbj8tgdmnhxfw8.png" alt="Carrom" />
             </Link>
             <Link to="/box-cricket(boys)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146420/Sports%20Cards/lldkmjsutrbia6yrq7pn.png" alt="Box Cricket (boys)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395930/BOX_CRICKET_je5j6b.png" alt="Box Cricket (boys)" />
             </Link>
-            <Link to="/throwball(girls)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146437/Sports%20Cards/jcxlnfqmtiq1tocx0pxz.png" alt="Throwball (girls)" />
+            <Link to="/dodgeball(girls)/details">
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395935/DODGE_BALL_uxorl7.png" alt="dodgeball(girls)" />
             </Link>
           </div>
         )}
