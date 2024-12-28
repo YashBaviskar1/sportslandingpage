@@ -48,11 +48,11 @@ const Events = () => {
         )}
         {selectedDay === 'day3' && (
           <div>
-            <Link to="/kabbadi(girls)/details">
+            <Link to="/kabbadi(boys)/details">
               <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735322455/New%20Sports%20Card/rpdabafu34vlkdqjdbbv.png" alt="Kabbadi" />
             </Link>
             <Link to="/box-cricket(girls)/details">
-              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735146427/Sports%20Cards/o1kme3ejcdfedhnkyjfx.png" alt="Box-Cricket(Girls)" />
+              <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735395931/BOX_CRICKET_2_pfr0p9.png.png" alt="Box-Cricket(Girls)" />
             </Link>
           </div>
         )}
