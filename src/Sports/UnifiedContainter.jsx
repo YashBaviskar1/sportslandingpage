@@ -106,12 +106,12 @@ function UnifiedContainer() {
           <p><strong>Date:</strong> {content?.date}</p>
           <p><strong>Venue:</strong> {content?.venue}</p>
           <p><strong>Duration:</strong> {content?.duration}</p>
-          <p>
+{/*           <p>
             <strong>Glimpses:</strong>
             <a href={content?.glimpses} target="_blank" rel="noopener noreferrer">
               YouTube Link
             </a>
-          </p>
+          </p> */}
         </>
       );
     } else if (section === 'rules') {
