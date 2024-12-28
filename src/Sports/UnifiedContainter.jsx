@@ -14,7 +14,7 @@ function UnifiedContainer() {
   const navigate = useNavigate();
 
   const hiddenSports = ['overarm-cricket(boys)', 'football(boys)', "tug-of-war(boys)", "tug-of-war(girls)",
-    "throwball(girls)", "box-cricket(girls)", "box-cricket(boys)"
+    "throwball(girls)", "box-cricket(girls)", "box-cricket(boys)", "dodgeball(girls)"
   ];
   const hideSingleDoubles = ['chess(boys)', 'kabbadi(boys)', 'kabbadi(girls)', 'chess(girls)'];
   const hideRegister = ['kabbadi(boys)', 'kabbadi(girls)']
