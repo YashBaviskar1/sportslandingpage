@@ -11,7 +11,7 @@ const Sports = () => {
 
   return (
     <>
-    <div className='background'>
+ <div className='background'>
     <div className="sports">
       <Header />
       <div className='Department'>
@@ -19,16 +19,16 @@ const Sports = () => {
         <LogoFlexbox/>
       </div>
       <div className='events'>
-        <h1 data-aos="zoom-in" className='headingCenter'>EVENTS</h1>
+        <h1 data-aos="zoom-in" id='events' className='headingCenter'>EVENTS</h1>
         <Events/> 
       </div>
       <div className='Gallery'>
-        <h1 data-aos="zoom-in" className='headingCenter'>Gallery</h1>
+        <h1 data-aos="zoom-in" id='gallery'className='headingCenter'>Gallery</h1>
         <Gallery/>
       </div> 
       <Footer></Footer>
     </div>
-    </div>
+    </div>
     </>
   )
 }
