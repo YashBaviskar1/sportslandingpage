@@ -4,7 +4,7 @@ sports_data = {
             "date": "30/12/2024",
             "info": "info about sports",
             "duration": "8:30 onwards",
-            "venue": "TMC Ground"
+            "venue": "Ovale Ground"
         },
         "rules": {
             "team": "11 players per side + 5 substitues",
