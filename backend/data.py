@@ -34,8 +34,8 @@ sports_data = {
         "details": {
             "date": "30/12/2024",
             "info": "info about sports",
-            "duration": "8:30 onwards",
-            "venue": "TMC ground"
+            "duration": "11:00 onwards",
+            "venue": "Ovale Ground, City turf"
         },
         "rules": {
             "team": "7 Players Playing + 3 Substitutes",
@@ -64,7 +64,7 @@ sports_data = {
             "date": "31/12/2024",
             "info": "info about sports",
             "duration": "8:30 onwards",
-            "venue": "TMC Ground"
+            "venue": "City Turf, Ananad Nagar"
         },
         "rules": {
             "team": "7 Players Playing + 3 Substitutes",
@@ -111,7 +111,7 @@ sports_data = {
             "date": "31/12/24",
             "info": "info about sports",
             "duration": "8:30am onwards",
-            "venue": "TMC Ground"
+            "venue": "City turf, Anand Nagar"
         },
         "rules": {
             "team": "6 players playing + 3 substitute. ",
@@ -134,8 +134,8 @@ sports_data = {
         "details": {
             "date": "31/12/2024",
             "info": "info about sports",
-            "duration": "9:00am onwards",
-            "venue": "TMC Ground"
+            "duration": "11:30am onwards",
+            "venue": "Ovale Ground, City turf"
         },
         "rules": {
             "team": "6-8 players per side",
@@ -261,8 +261,8 @@ sports_data = {
         "details": {
             "date": "31/12/2024",
             "info": "info about sports",
-            "duration": "9:00 am onwards",
-            "venue": "FlagPost Area"
+            "duration": "11:30 am onwards",
+            "venue": "City turf, Anand Nagar"
         },
         "rules": {
             "team": "6 players playing + 3 substitute",
