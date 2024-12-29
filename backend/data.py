@@ -4,7 +4,7 @@ sports_data = {
             "date": "30/12/2024",
             "info": "info about sports",
             "duration": "8:30 onwards",
-            "venue": "Ovale Ground"
+            "venue": "Agri Koli Ground, Ovale"
         },
         "rules": {
             "team": "11 players per side + 5 substitues",
@@ -35,7 +35,7 @@ sports_data = {
             "date": "30/12/2024",
             "info": "info about sports",
             "duration": "11:00 onwards",
-            "venue": "Ovale Ground, City turf"
+            "venue": "Agri Koli Ground, Ovale"
         },
         "rules": {
             "team": "7 Players Playing + 3 Substitutes",
@@ -135,7 +135,7 @@ sports_data = {
             "date": "31/12/2024",
             "info": "info about sports",
             "duration": "11:30am onwards",
-            "venue": "Ovale Ground, City turf"
+            "venue": "City Turf"
         },
         "rules": {
             "team": "6-8 players per side",
