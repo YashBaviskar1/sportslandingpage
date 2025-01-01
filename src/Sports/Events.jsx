@@ -3,7 +3,7 @@ import './Events.css';
 import { Link } from 'react-router-dom';
 
 const Events = () => {
-  const [selectedDay, setSelectedDay] = useState('day2');
+  const [selectedDay, setSelectedDay] = useState('day3');
 
   return (
     <div className="event-tabs">
