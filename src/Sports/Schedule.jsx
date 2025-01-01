@@ -17,7 +17,7 @@ import dodgeball from "../assets/dodgeball.png";
 
 const Schedule = () => {
   const [isNightMode, setIsNightMode] = useState(false);
-  const [activeTab, setActiveTab] = useState(null); // Track the active tab
+  const [activeTab, setActiveTab] = useState(2); // Track the active tab
 
   const toggleMode = () => {
     setIsNightMode(!isNightMode);
