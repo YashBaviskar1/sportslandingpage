@@ -130,7 +130,7 @@ const Index = () => {
                 </div>
               </div>
             </a>
-            <a>
+            <a href="/cultural">
               <div className="card">
                 <div className="wrapper">
                   <img src="https://res.cloudinary.com/dyhby7bo9/image/upload/v1735283381/Sports%20Cards/rtjdgmu94tf2jom1jbpu.png" className="cover-image" alt="Dark Rider Cover" />
